@@ -2,4 +2,161 @@
   Top
 ==================================*/
 #Top main {
+  .sect_1{
+    .wrapper{
+      width: 100%;
+      height: 100vh;
+      .content{
+        width: 100%;
+        height: 100%;
+        background-image: url(/images/top/sect_1/img_1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+  .sect_2{
+    .wrapper{
+      .container{
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
+        &::before{
+          content: "";
+          display: block;
+          width: 90%;
+          height: 147.5px;
+          background-color: #fff;
+          position: absolute;
+          top: -55px;
+          left: 0;
+          right: 0;
+          z-index: 0;
+          border-radius: 50%;
+          margin: 0 auto;
+        }
+        .content{
+          position: relative;
+          z-index: 5;
+          padding: 0 20px;
+          margin: -25px 0 0;
+          .ttl_cont{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .ttl{
+              width: 232.5px;
+            }
+            .sub{
+              width: 240px;
+              margin: 15px 0;
+            }
+            .dot{
+              width: 240px;
+            }
+          }
+          .desc{
+            margin: 20px 0 0;
+            line-height: 24px;
+            text-align: left;
+            span{
+              display: block;
+              margin: 20px 0 0;
+            }
+          }
+        }
+        .img_tl{
+          width: 70%;
+          margin: 20px 0 0 20px;
+        }
+        .img_tr{
+          position: absolute;
+          top: -85px;
+          right: 0;
+          width: 48.5%;
+        }
+        .row{
+          position: relative;
+          margin: 105px 0 0;
+          .col{
+            position: unset;
+            &:first-child{
+              width: 100%;
+              .float_img{
+                position: absolute;
+                top: -100px;
+                right: 10px;
+                z-index: 6;
+                max-width: 48%;
+              }
+            }
+            &:last-child{
+              position: relative;
+              width: 100%;
+              background-color: #fff;
+              border-radius: 10px;
+              text-align: center;
+              padding: 20px 20px 40px;
+              h3{
+                img{
+                  width: 335px;
+                }
+              }
+              h4{
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: .04em;
+                color: #4e340d;
+                margin: 15px 0 0;
+              }
+              .p_border{
+                max-width: 333px;
+                width: 100%;
+                &:nth-child(5){
+                  margin: 3px auto 0;
+                  display: block;
+                }
+              }
+              p{
+                line-height: 26px;
+                letter-spacing: .025em;
+                color: #4e340d;
+                font-size: 16px;
+                margin: 3px 0 0;
+              }
+              .tel{
+                margin: 15px 0 0;
+                &__txt{
+                  background-color: #ffedf3;
+                  letter-spacing: .08em;
+                  color: #e93c71;
+                  margin: 0;
+                  padding: 2px 0;
+                  border-radius: 2.5px;
+                }
+                a{
+                  @include YuGo_bold();
+                  font-size: 35px;
+                  color: #e93c71;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin: 7px 0 0 0;
+                  svg{
+                    width: 27px;
+                    height: 24.5px;
+                    margin: 0 5px 0;
+                    path{
+                      fill: #e93c71
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

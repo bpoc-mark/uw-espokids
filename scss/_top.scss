@@ -2,4 +2,231 @@
   Top
 ==================================*/
 #Top main {
+  .sect_1{
+    .wrapper{
+      width: 100%;
+      height: 100vh;
+      .content{
+        width: 100%;
+        height: 100%;
+        background-image: url(/images/top/sect_1/img_1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+  .sect_2{
+    .wrapper{
+      padding: 0 0 80px;
+      .container{
+        position: relative;
+        &::before{
+          content: "";
+          display: block;
+          max-width: 1025px;
+          height: 295px;
+          background-color: #fff;
+          position: absolute;
+          top: -85px;
+          left: 0;
+          right: 0;
+          z-index: 0;
+          border-radius: 50%;
+          margin: 0 auto;
+        }
+        .content{
+          position: relative;
+          z-index: 5;
+          margin: -25px 0 0;
+          .ttl_cont{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .ttl{
+              width: 395px;
+            }
+            .sub{
+              width: 408px;
+              margin: 20px 0;
+            }
+            .dot{
+              width: 409px;
+            }
+          }
+          .desc{
+            margin: 30px 0 0;
+            letter-spacing: .1em;
+            line-height: 34px;
+            text-align: center;
+            span{
+              display: block;
+              margin: 10px 0 0;
+            }
+          }
+        }
+        .img_tl{
+          position: absolute;
+          top: 10px;
+          left: -40px;
+          width: 356px;
+        }
+        .img_tr{
+          position: absolute;
+          top: -125px;
+          right: 10px;
+          width: 265px;
+        }
+        .row{
+          position: relative;
+          margin: 85px 0 0;
+          .col{
+            position: unset;
+            &:first-child{
+              width: 38%;
+              .kid_img{
+                width: 60%;
+                border-radius: 20px;
+                background-image: url(/images/top/sect_2/img_4.png);
+                background-size: contain;
+                background-position: top;
+                background-repeat: no-repeat;
+                position: absolute;
+                top: 0;
+                left: 0;
+              }
+              .float_img{
+                position: absolute;
+                top: -130px;
+                right: 0;
+                z-index: 6;
+                width: 396px;
+              }
+            }
+            &:last-child{
+              position: relative;
+              width: 62%;
+              background-color: #fff;
+              border-radius: 10px;
+              text-align: center;
+              padding: 45px 60px 50px;
+              margin: 40px 0 0;
+              h4{
+                font-size: 20px;
+                line-height: 32px;
+                letter-spacing: .08em;
+                color: #4e340d;
+                margin: 15px 0 0;
+              }
+              .p_border{
+                width: 100%;
+                &:nth-child(5){
+                  margin: 3px 0 0;
+                  display: block;
+                }
+              }
+              p{
+                line-height: 30px;
+                letter-spacing: .025em;
+                color: #4e340d;
+                font-size: 14px;
+                margin: 3px 0 0;
+                span{
+                  font-size: 17px;
+                }
+              }
+              .tel{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                margin: 10px 0 0;
+                &__txt{
+                  @include is-max(1070px){
+                    width: 200px;
+                  }
+                }
+                a{
+                  @include YuGo_bold();
+                  font-size: 38px;
+                  color: #e93c71;
+                  display: flex;
+                  align-items: center;
+                  margin: 0 0 0 13px;
+                  @include is-max(1200px){
+                    font-size:2.7vw;
+                  }
+                  @include is-max(1070px){
+                    font-size:2.3vw;
+                  }
+                  svg{
+                    width: 24px;
+                    height: 24px;
+                    margin: 0 5px 0;
+                    path{
+                      fill: #e93c71
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect_3{
+    .wrapper{
+      background-image: url(/images/top/sect_3/bg_img.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 70px 0 80px;
+      .container{
+        .content{
+          .ttl{
+            margin: 0 0 40px;
+          }
+          .row{
+            .col{
+              width: 33%;
+              .bg{
+                background-image: url(/images/top/sect_3/row_bg_img_1.png);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                position: absolute;
+                inset: 0;
+                z-index: 0;
+                width: 100%;
+                height: 100%;
+              }
+              .txt_cont{
+                position: relative;
+                z-index: 5;
+                h4{
+                  font-weight: 300;
+                  letter-spacing: .1em;
+                  line-height: 32px;
+                  font-size: 30px;
+                  text-align: center;
+                  span{
+                    font-size: 24px;
+                  }
+                }
+                p{
+                  font-size: 15px;
+                  font-weight: 300;
+                  letter-spacing: .08em;
+                  line-height: 22px;
+                  text-align: center;
+                  margin: 10px 0 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
