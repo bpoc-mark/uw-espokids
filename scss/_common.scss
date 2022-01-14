@@ -70,9 +70,126 @@ header {
   left: 0;
   right: 0;
   z-index: 999;
-  background: #fff;
+  // background: #fff;
   width: 100%;
-  height: 100px;
+  height: 115px;
+  .header_inner{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 65px; 
+    @include is-max(1100px){
+      padding: 0 30px;
+    }
+    .logo{
+      width: 300px;
+      height: 43px;
+      background-image: url(/images/common/logo_primary.svg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0 0 10px;
+      @include is-max(1100px){
+        width: 220px;
+        height: 32px;
+      }
+      a{
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .nav{
+      &__list{
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 50px;
+        overflow: hidden;
+        padding: 0 0 0 40px;
+      }
+      &__item{
+        position: relative;
+        &:first-child{
+          &::after{
+            top: 0 !important;
+          }
+          a{
+            display: flex;
+            align-items: center;
+            img{
+              width: 21px;
+            }
+          }
+        }
+        &:nth-child(-n+3){
+          margin: 0 10px 0 0;
+          padding: 0 30px 0 0;
+          &::after{
+            content: "・・・";
+            display: inline-block;
+            font-size: 10px;
+            color: #412718;
+            transform: rotate(90deg);
+            letter-spacing: -.30em;
+            position: absolute;
+            top: 3px;
+            right: 0;
+            transform: rotate(90deg);
+          }
+        }
+        &:nth-child(6){
+          background-color: #e93c71;
+          width: 230px;
+          height: 60px;
+          margin: 0 0 0 20px;
+          .nav__link{
+            color: #fff;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            .txt{
+              @include Noto_Sans(500);
+              font-size: 15px;
+              letter-spacing: .05em;
+            }
+            .tel{
+              position: relative;
+              @include YuGo_bold();
+              font-size: 20px;
+              letter-spacing: -0.01em;
+              line-height: 1.1;
+              margin: 0 0 0 7px;
+              svg{
+                width: 14px;
+                height: 14px;
+                position: absolute;
+                top: 4px;
+                left: -19px;
+                path{
+                  fill: #fff;
+                }
+              }
+            }
+          }
+        }
+        
+      }
+      &__link{
+        @include is-max(1100px){
+          font-size: 12px;
+        }
+        img{
+          width: 10px;
+        }
+      }
+    }
+  }
 }
 
 /* footer
