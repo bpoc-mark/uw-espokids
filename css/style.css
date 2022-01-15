@@ -19,7 +19,7 @@ ol,
 dl,
 dd,
 tr {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: YakuHanJP_Noto, "Noto Sans JP", sans-serif;
   font-weight: 500;
   color: #000;
   font-size: 16px;
@@ -207,7 +207,7 @@ header .header_inner .nav__item:nth-child(6) .nav__link {
 }
 
 header .header_inner .nav__item:nth-child(6) .nav__link .txt {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: YakuHanJP, "Noto Sans JP", sans-serif;
   font-weight: 500;
   font-size: 15px;
   letter-spacing: .05em;
