@@ -29,7 +29,7 @@
         </header>
 
         <main>
-            <section class="sect_1">
+            <section class="c-mainVisual c-mainVisual--rates">
                 <div class="wrapper">
                     <div class="content">
                     </div>

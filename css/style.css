@@ -704,6 +704,24 @@ img[src$='.png'], img[src$='.jpg'] {
   color: #fff;
 }
 
+.c-mainVisual--rates .wrapper .content {
+  background: url(/images/rates/sect_1/bg_mv.png) center center/cover no-repeat;
+}
+
+.c-mainVisual--access .wrapper .content {
+  background: url(/images/access/sect_1/bg_mv.png) center center/cover no-repeat;
+}
+
+.c-mainVisual .wrapper {
+  width: 100%;
+  height: 670px;
+}
+
+.c-mainVisual .wrapper .content {
+  width: 100%;
+  height: 100%;
+}
+
 .c-select01 {
   padding: 5px 10px;
   border: none !important;
@@ -1894,20 +1912,6 @@ main#Contact .form_wrap > p {
 /*==================================
   Access
 ==================================*/
-#Access main .sect_1 .wrapper {
-  width: 100%;
-  height: 70vh;
-}
-
-#Access main .sect_1 .wrapper .content {
-  width: 100%;
-  height: 100%;
-  background-image: url("../images/access/sect_1/img_1.png");
-  background-size: cover;
-  background-position: 90% center;
-  background-repeat: no-repeat;
-}
-
 #Access main .sect_2 .wrapper {
   padding: 0 0 80px;
 }

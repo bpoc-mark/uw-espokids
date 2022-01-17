@@ -30,10 +30,9 @@
         </header>
 
         <main>
-            <section class="sect_1">
+            <section class="c-mainVisual c-mainVisual--access">
                 <div class="wrapper">
                     <div class="content">
-
                     </div>
                 </div>
             </section>
@@ -43,10 +42,8 @@
                         <div class="content">
                             <div class="ttl_cont">
                                 <picture>
-                                    <source srcset="/images/access/sect_2/sp/header_txt_2.svg"
-                                        media="(max-width: 899px)">
-                                    <img src="/images/access/sect_2/header_txt_2.svg" class="sub" alt="遠鉄の学童保育"
-                                        class="">
+                                    <source srcset="/images/access/sect_2/sp/header_txt_2.svg" media="(max-width: 899px)">
+                                    <img src="/images/access/sect_2/header_txt_2.svg" class="sub" alt="遠鉄の学童保育" class="">
                                 </picture>
                                 <img src="/images/top/sect_2/header_dot.svg" class="dot" alt="Dot">
                             </div>
