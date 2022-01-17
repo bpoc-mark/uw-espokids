@@ -73,16 +73,16 @@ header {
   // background: #fff;
   width: 100%;
   height: 115px;
-  .header_inner{
+  .header_inner {
     height: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 0 65px; 
-    @include is-max(1100px){
+    padding: 0 65px;
+    @include is-max(1100px) {
       padding: 0 30px;
     }
-    .logo{
+    .logo {
       width: 300px;
       height: 43px;
       background-image: url(/images/common/logo_primary.svg);
@@ -90,18 +90,18 @@ header {
       background-position: center;
       background-repeat: no-repeat;
       margin: 0 0 10px;
-      @include is-max(1100px){
+      @include is-max(1100px) {
         width: 220px;
         height: 32px;
       }
-      a{
+      a {
         display: block;
         width: 100%;
         height: 100%;
       }
     }
-    .nav{
-      &__list{
+    .nav {
+      &__list {
         display: flex;
         align-items: center;
         background-color: #fff;
@@ -109,42 +109,42 @@ header {
         overflow: hidden;
         padding: 0 0 0 40px;
       }
-      &__item{
+      &__item {
         position: relative;
-        &:first-child{
-          &::after{
+        &:first-child {
+          &::after {
             top: 0 !important;
           }
-          a{
+          a {
             display: flex;
             align-items: center;
-            img{
+            img {
               width: 21px;
             }
           }
         }
-        &:nth-child(-n+3){
+        &:nth-child(-n + 3) {
           margin: 0 10px 0 0;
           padding: 0 30px 0 0;
-          &::after{
+          &::after {
             content: "・・・";
             display: inline-block;
             font-size: 10px;
             color: #412718;
             transform: rotate(90deg);
-            letter-spacing: -.30em;
+            letter-spacing: -0.3em;
             position: absolute;
             top: 3px;
             right: 0;
             transform: rotate(90deg);
           }
         }
-        &:nth-child(6){
+        &:nth-child(6) {
           background-color: #e93c71;
           width: 230px;
           height: 60px;
           margin: 0 0 0 20px;
-          .nav__link{
+          .nav__link {
             color: #fff;
             width: 100%;
             height: 100%;
@@ -152,39 +152,38 @@ header {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            
-            .txt{
+
+            .txt {
               @include Noto_Sans(500);
               font-size: 15px;
-              letter-spacing: .05em;
+              letter-spacing: 0.05em;
             }
-            .tel{
+            .tel {
               position: relative;
               @include YuGo_bold();
               font-size: 20px;
               letter-spacing: -0.01em;
               line-height: 1.1;
               margin: 0 0 0 7px;
-              svg{
+              svg {
                 width: 14px;
                 height: 14px;
                 position: absolute;
                 top: 4px;
                 left: -19px;
-                path{
+                path {
                   fill: #fff;
                 }
               }
             }
           }
         }
-        
       }
-      &__link{
-        @include is-max(1100px){
+      &__link {
+        @include is-max(1100px) {
           font-size: 12px;
         }
-        img{
+        img {
           width: 10px;
         }
       }
@@ -194,8 +193,143 @@ header {
 
 /* footer
 ==================================*/
-footer {
-  background: #000;
+.footer {
+  padding: 50px 0;
+  position: relative;
+  nav {
+    width: 61%;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+        font-size: 15px;
+        font-weight: 500;
+      }
+    }
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0 0 0;
+    .col {
+      &:first-child {
+        width: 61%;
+      }
+      &:last-child {
+        width: 31%;
+        .col-icons {
+          display: flex;
+          justify-content: flex-end;
+          .icon-1 {
+            width: 128px;
+            height: auto;
+          }
+          .icon-2 {
+            width: 128px;
+            height: auto;
+          }
+        }
+      }
+      .col-content {
+        display: flex;
+        align-items: center;
+        &__1 {
+          h3 {
+            width: 233px;
+            height: auto;
+          }
+          .col-sub {
+            font-size: 12px;
+            font-weight: 300;
+            color: #787878;
+            padding-top: 10px;
+          }
+        }
+        &__2 {
+          margin-left: 35px;
+          display: flex;
+          .ttl {
+            background: #369ce6;
+            border-radius: 5px;
+            color: #fff;
+            padding: 5px 10px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+          }
+          .add_dtls {
+            padding-left: 10px;
+            line-height: 22px;
+          }
+        }
+      }
+      .contact {
+        font-size: 15px;
+        font-weight: 500;
+        padding-top: 15px;
+        letter-spacing: 0.05em;
+        line-height: 20px;
+      }
+      .description {
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+        line-height: 27px;
+      }
+    }
+  }
+  .back-to-top {
+    width: 72px;
+    height: auto;
+    position: absolute;
+    bottom: 35px;
+    right: 25px;
+  }
+}
+.copy {
+  background-color: #f3f3f3;
+  padding: 15px 0;
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .col {
+      &:first-child {
+        width: 50%;
+        ul {
+          display: flex;
+          li {
+            display: flex;
+            align-items: center;
+            padding-right: 30px;
+            img {
+              width: 5px;
+              height: 6px;
+              margin-right: 5px;
+            }
+            a {
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 1;
+              color: #535353;
+            }
+          }
+        }
+      }
+      &:last-child {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        small {
+          font-size: 12px;
+          font-weight: 300;
+          letter-spacing: 0.05em;
+          line-height: 27px;
+          text-align: right;
+        }
+      }
+    }
+  }
 }
 
 #pageTop {
