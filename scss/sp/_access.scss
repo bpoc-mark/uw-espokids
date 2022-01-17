@@ -1,6 +1,9 @@
 /*==================================
   Access
 ==================================*/
+#Access {
+  overflow: hidden;
+}
 #Access main {
   .sect_1 {
     .wrapper {
@@ -123,8 +126,6 @@
                       color: #fff;
                       line-height: 18px;
                       border-radius: 5px;
-                      width: 49px;
-                      height: 47px;
                     }
                     &:nth-child(2) {
                       margin-left: 10px;
@@ -150,7 +151,7 @@
                 font-size: 12px;
               }
               h4 {
-                font-size: 4vw;
+                font-size: 16px;
                 line-height: 1.5em;
                 letter-spacing: 0.08em;
                 color: #4e340d;
