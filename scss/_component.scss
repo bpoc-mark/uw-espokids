@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import '_mixins.scss';
+@import "_mixins.scss";
 
 /*==================================
   Component
@@ -15,8 +15,8 @@ img {
   max-width: 100%;
   height: auto;
 
-  &[src$='.png'],
-  &[src$='.jpg'] {
+  &[src$=".png"],
+  &[src$=".jpg"] {
     backface-visibility: hidden;
   }
 }
@@ -175,7 +175,7 @@ img {
       font-weight: 500;
       box-sizing: border-box;
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         bottom: 0;
@@ -230,7 +230,7 @@ img {
           padding-left: 24px;
           position: relative;
           &::before {
-            content: '';
+            content: "";
             position: absolute;
             top: 0;
             left: 0;
@@ -283,7 +283,6 @@ img {
     }
   }
 }
-<<<<<<< HEAD
 
 .footer_inner {
   .footer_1 {
@@ -400,7 +399,11 @@ img {
             width: 20px;
             height: auto;
           }
-=======
+        }
+      }
+    }
+  }
+}
 .c-mainVisual {
   &--rates {
     .wrapper .bg {
@@ -481,22 +484,19 @@ img {
       #{$checkbox}__check {
         background: #fff;
         &:after {
-          content: '';
+          content: "";
           background: url(../images/common/img_checkbox_arrow.svg) center center /
             100% no-repeat;
           width: 12px;
           padding: 1px;
->>>>>>> 7b5d3f1bd99172993c82482a6469c7b1564f2d68
         }
       }
     }
   }
-<<<<<<< HEAD
-=======
   &__check {
     display: flex;
     justify-content: center;
-    content: '';
+    content: "";
     width: 20px;
     height: 20px;
     background: #fff;
@@ -514,5 +514,4 @@ img {
     align-items: center;
     position: relative;
   }
->>>>>>> 7b5d3f1bd99172993c82482a6469c7b1564f2d68
 }

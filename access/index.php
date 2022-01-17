@@ -30,14 +30,14 @@
         </header>
 
         <main>
-            <section class="c-mainVisual c-mainVisual--rates">
+            <section class="c-mainVisual c-mainVisual--access">
                 <div class="wrapper">
                     <div class="bg">
                     </div>
                     <div class="container">
                         <div class="text">
                             <h1>
-                                <img src="/images/rates/sect_1/img_page_title_rates.svg" class="ttl" alt="料金">
+                                <img src="/images/access/sect_1/img_page_title_access.svg" class="ttl" alt="料金">
                             </h1>
                         </div>
                     </div>
