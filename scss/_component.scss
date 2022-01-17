@@ -283,6 +283,28 @@ img {
     }
   }
 }
+.c-mainVisual {
+  &--rates {
+    .wrapper .content {
+      background: url(/images/rates/sect_1/bg_mv.png) center center / cover
+        no-repeat;
+    }
+  }
+  &--access {
+    .wrapper .content {
+      background: url(/images/access/sect_1/bg_mv.png) center center / cover
+        no-repeat;
+    }
+  }
+  .wrapper {
+    width: 100%;
+    height: 670px;
+    .content {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
 .c-select01 {
   padding: 5px 10px;
   border: none !important;
