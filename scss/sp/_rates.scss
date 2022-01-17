@@ -274,7 +274,10 @@
               max-width: 481px;
             }
             .vector {
-              display: none;
+              right: 0;
+              bottom: 0;
+              max-width: (123px/2);
+              position: absolute;
             }
           }
         }

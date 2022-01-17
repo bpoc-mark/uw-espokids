@@ -151,7 +151,10 @@
                                         </picture>
                                     </div>
                                     <div class="vector">
-                                        <img src="/images/rates/sect_4/img_vector.png" alt="vector">
+                                        <picture>
+                                            <source srcset="/images/rates/sect_4/sp/img_vector_sp.png" media="(max-width: 899px)">
+                                            <img src="/images/rates/sect_4/img_vector.png" alt="vector">
+                                        </picture>
                                     </div>
                                 </div>
                                 <div class="package__col">
