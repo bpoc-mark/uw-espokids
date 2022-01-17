@@ -213,7 +213,7 @@
                     </div>
                 </div>
             </section>
-            <section class="sect_6">
+            <section class="sect_6" id="price-simulation">
                 <div class="wrapper">
                     <div class="container">
                         <div class="ttl_cont">
