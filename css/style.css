@@ -42,6 +42,7 @@ h6 {
 a {
   color: #000;
   text-decoration: none;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -85,9 +86,15 @@ header {
 
 header .header_inner {
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 0 65px;
 }
 
@@ -121,8 +128,12 @@ header .header_inner .logo a {
 }
 
 header .header_inner .nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #fff;
   border-radius: 50px;
   overflow: hidden;
@@ -138,8 +149,12 @@ header .header_inner .nav__item:first-child::after {
 }
 
 header .header_inner .nav__item:first-child a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header .header_inner .nav__item:first-child a img {
@@ -156,7 +171,8 @@ header .header_inner .nav__item:nth-child(-n+3)::after {
   display: inline-block;
   font-size: 10px;
   color: #412718;
-  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
   letter-spacing: -.30em;
   position: absolute;
   top: 3px;
@@ -175,10 +191,19 @@ header .header_inner .nav__item:nth-child(6) .nav__link {
   color: #fff;
   width: 100%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 header .header_inner .nav__item:nth-child(6) .nav__link .txt {
@@ -232,6 +257,7 @@ footer {
   right: 0;
   bottom: 0;
   z-index: 888;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -263,13 +289,16 @@ footer {
 /* Animation
 ==================================*/
 .c-anim-up {
-  transform: translate(0, 30px);
+  -webkit-transform: translate(0, 30px);
+          transform: translate(0, 30px);
   opacity: 0;
+  -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
 
 .move {
-  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
   opacity: 1;
 }
 
@@ -339,7 +368,8 @@ img {
 }
 
 img[src$=".png"], img[src$=".jpg"] {
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .container {
@@ -348,7 +378,8 @@ img[src$=".png"], img[src$=".jpg"] {
   margin-right: auto;
   padding-left: 50px;
   padding-right: 50px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @media (max-width: 899px) {
@@ -359,20 +390,27 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .row .col {
   position: relative;
   width: 100%;
   min-height: 1px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .row .col.col_4 {
-  flex: 0 0 33.3333%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.3333%;
+          flex: 0 0 33.3333%;
   max-width: 33.3333%;
 }
 
@@ -389,8 +427,12 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 .news_ul .news_li > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .news_ul .news_li > a .date {
@@ -405,7 +447,9 @@ img[src$=".png"], img[src$=".jpg"] {
 
 @media (min-width: 900px) {
   .news_ul .news_li > a .title {
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000)) 0 100%/0 1px no-repeat;
     background: linear-gradient(#000, #000) 0 100%/0 1px no-repeat;
+    -webkit-transition: background 0.4s ease;
     transition: background 0.4s ease;
   }
   .news_ul .news_li > a:hover .title {
@@ -429,8 +473,12 @@ img[src$=".png"], img[src$=".jpg"] {
     left: -5px;
     bottom: 0;
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .news_ul .news_li > a .img_wrap img {
     max-width: 57px;
@@ -453,9 +501,15 @@ img[src$=".png"], img[src$=".jpg"] {
 	ページナビ
 ==================================*/
 .page_navigation .wp-pagenavi {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 45px 0 50px;
 }
 
@@ -471,11 +525,18 @@ img[src$=".png"], img[src$=".jpg"] {
   font-weight: 500;
   width: 40px;
   height: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-radius: 5px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0 5px;
 }
 
@@ -502,7 +563,8 @@ img[src$=".png"], img[src$=".jpg"] {
 .page_navigation .wp-pagenavi .previouspostslink {
   position: relative;
   font-weight: 500;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .page_navigation .wp-pagenavi .nextpostslink::before,
@@ -517,6 +579,7 @@ img[src$=".png"], img[src$=".jpg"] {
   background-image: url(../images/common/pager_arrow.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -529,7 +592,8 @@ img[src$=".png"], img[src$=".jpg"] {
 .page_navigation .wp-pagenavi .nextpostslink.previouspostslink::before,
 .page_navigation .wp-pagenavi .previouspostslink.previouspostslink::before {
   left: 0;
-  transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
 }
 
 @media (min-width: 900px) {
@@ -588,9 +652,15 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 .page_navigation > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 45px 0 50px;
 }
 
@@ -600,11 +670,18 @@ img[src$=".png"], img[src$=".jpg"] {
   font-weight: 500;
   width: 40px;
   height: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-radius: 5px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0 5px;
 }
 
@@ -677,9 +754,16 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_2 .wrapper .container .content .ttl_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #Top main .sect_2 .wrapper .container .content .ttl_cont .ttl {
@@ -795,9 +879,15 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Top main .sect_2 .wrapper .container .row .col:last-child .tel {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   margin: 10px 0 0;
 }
 
@@ -812,8 +902,12 @@ img[src$=".png"], img[src$=".jpg"] {
   font-weight: bold;
   font-size: 38px;
   color: #e93c71;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 0 0 13px;
 }
 
@@ -939,6 +1033,18 @@ main#Contact input[type='checkbox']:checked + label {
   background: #ff0000;
 }
 
+main#Contact input::-webkit-input-placeholder {
+  color: #b7b7b7;
+}
+
+main#Contact input:-ms-input-placeholder {
+  color: #b7b7b7;
+}
+
+main#Contact input::-ms-input-placeholder {
+  color: #b7b7b7;
+}
+
 main#Contact input::placeholder {
   color: #b7b7b7;
 }
@@ -954,6 +1060,8 @@ main#Contact input::-webkit-input-placeholder {
 main#Contact button,
 main#Contact input[type='button'],
 main#Contact input[type='submit'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   padding: 0;
   border: none;
@@ -962,6 +1070,8 @@ main#Contact input[type='submit'] {
 }
 
 main#Contact textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   resize: none;
   padding: 0;
@@ -972,6 +1082,8 @@ main#Contact textarea {
 }
 
 main#Contact select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   border: none;
   outline: none;
@@ -991,6 +1103,13 @@ main#Contact {
   /*------ Form Base END ------*/
 }
 
+@-webkit-keyframes onAutoFillStart {
+  from {
+  }
+  to {
+  }
+}
+
 @keyframes onAutoFillStart {
   from {
   }
@@ -1005,8 +1124,10 @@ main#Contact span.error {
 }
 
 main#Contact input:-webkit-autofill {
-  animation-name: onAutoFillStart;
+  -webkit-animation-name: onAutoFillStart;
+          animation-name: onAutoFillStart;
   background: white !important;
+  -webkit-transition: background-color 50000s ease-in-out 0s;
   transition: background-color 50000s ease-in-out 0s;
 }
 
@@ -1031,7 +1152,8 @@ main#Contact input[type="text"] {
   padding: 12px 21px;
   border: 1px solid #dddddd;
   background: #dddddd;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #000;
   width: 100%;
 }
@@ -1075,7 +1197,9 @@ main#Contact input[type="button"] {
   background: #dddddd;
   border: 3px solid #dddddd;
   padding: 10px 19px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   cursor: pointer;
 }
@@ -1101,7 +1225,8 @@ main#Contact input[type="checkbox"] + label::before {
   height: 22px;
   border: 1px solid #dddddd;
   background: #dddddd;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 main#Contact input[type="checkbox"] + label::after {
@@ -1116,7 +1241,8 @@ main#Contact input[type="checkbox"] + label::after {
   opacity: 0;
   position: absolute;
   top: 50%;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
   width: 5px;
 }
 
@@ -1145,7 +1271,8 @@ main#Contact input[type="radio"] + label::before {
   height: 17px;
   border: 1px solid #dddddd;
   background: #dddddd;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 50%;
 }
 
@@ -1192,8 +1319,11 @@ main#Contact .select-box select {
   outline: none;
   background: transparent;
   background-image: none;
-  box-shadow: none;
-  appearance: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
   padding: 12px 38px 12px 21px;
 }
 
@@ -1221,7 +1351,8 @@ main#Contact textarea {
   letter-spacing: 0.03em;
   border: 1px solid #dddddd;
   background: #dddddd;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
   padding: 12px 21px;
   min-height: 174px;
@@ -1282,13 +1413,16 @@ main#Contact .submit_area span {
   color: #000;
   width: 262px;
   background: #dddddd;
-  box-sizing: border-box;
-  font-feature-settings: "palt";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
   position: relative;
   display: inline-block;
   text-align: center;
   box-sizing: border-box;
   border: 3px solid #dddddd;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -1300,7 +1434,8 @@ main#Contact .submit_area span input[type="submit"] {
   cursor: pointer;
   width: 100%;
   height: 58px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 main#Contact .submit_area span:hover {
@@ -1323,13 +1458,16 @@ main#Contact .submit_area ul.koumoku li {
   color: #000;
   width: 262px;
   background: #5f4b08;
-  box-sizing: border-box;
-  font-feature-settings: "palt";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
   position: relative;
   display: inline-block;
   text-align: center;
   box-sizing: border-box;
   border: 3px solid #5f4b08;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -1341,7 +1479,8 @@ main#Contact .submit_area ul.koumoku li input[type="submit"] {
   cursor: pointer;
   width: 100%;
   height: 58px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 main#Contact .submit_area ul.koumoku li:hover {
@@ -1368,13 +1507,16 @@ main#Contact .btn_back input {
   color: #fff;
   width: 262px;
   background: #dddddd;
-  box-sizing: border-box;
-  font-feature-settings: "palt";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
   position: relative;
   display: inline-block;
   text-align: center;
   box-sizing: border-box;
   border: 3px solid #dddddd;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   height: 58px;
   padding: 15px 15px 14px;
@@ -1392,13 +1534,16 @@ main#Contact .contact_back a {
   color: #fff;
   width: 262px;
   background: #dddddd;
-  box-sizing: border-box;
-  font-feature-settings: "palt";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
   position: relative;
   display: inline-block;
   text-align: center;
   box-sizing: border-box;
   border: 3px solid #dddddd;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   height: 58px;
   padding: 15px 15px 14px;
@@ -1417,6 +1562,7 @@ main#Contact .container {
 }
 
 main#Contact .container p > a {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000)) 0 100%/0 1px no-repeat;
   background: linear-gradient(#000, #000) 0 100%/0 1px no-repeat;
   background-size: 100% 1px;
   padding-bottom: 2px;
@@ -1425,6 +1571,7 @@ main#Contact .container p > a {
 
 main#Contact .container p > a:hover {
   color: #704f00;
+  background: -webkit-gradient(linear, left top, left bottom, from(#704f00), to(#704f00)) 0 100%/0 1px no-repeat;
   background: linear-gradient(#704f00, #704f00) 0 100%/0 1px no-repeat;
   background-size: 100% 1px;
 }
@@ -1484,5 +1631,289 @@ main#Contact .form_wrap > p {
   line-height: 1.5;
   letter-spacing: 0.03em;
   font-weight: 500;
+}
+
+/*==================================
+  Access
+==================================*/
+#Access main .sect_1 .wrapper {
+  width: 100%;
+  height: 70vh;
+}
+
+#Access main .sect_1 .wrapper .content {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/access/sect_1/img_1.png");
+  background-size: cover;
+  background-position: 90% center;
+  background-repeat: no-repeat;
+}
+
+#Access main .sect_2 .wrapper {
+  padding: 0 0 80px;
+}
+
+#Access main .sect_2 .wrapper .container {
+  position: relative;
+}
+
+#Access main .sect_2 .wrapper .container::before {
+  content: "";
+  display: block;
+  max-width: 1025px;
+  height: 295px;
+  background-color: #fff;
+  position: absolute;
+  top: -85px;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#Access main .sect_2 .wrapper .container .content {
+  position: relative;
+  z-index: 5;
+  margin: -25px 0 0;
+}
+
+#Access main .sect_2 .wrapper .container .content .ttl_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Access main .sect_2 .wrapper .container .content .ttl_cont .ttl {
+  width: 395px;
+}
+
+#Access main .sect_2 .wrapper .container .content .ttl_cont .sub {
+  width: 116px;
+  margin: 20px 0;
+}
+
+#Access main .sect_2 .wrapper .container .content .ttl_cont .dot {
+  width: 409px;
+}
+
+#Access main .sect_2 .wrapper .container .content .desc {
+  margin: 30px 0 0;
+  letter-spacing: 0.1em;
+  line-height: 34px;
+  text-align: center;
+}
+
+#Access main .sect_2 .wrapper .container .content .desc span {
+  display: block;
+  margin: 10px 0 0;
+}
+
+#Access main .sect_2 .wrapper .container .img_tl {
+  position: absolute;
+  top: -80px;
+  left: 20px;
+  width: 258px;
+}
+
+#Access main .sect_2 .wrapper .container .img_tr {
+  position: absolute;
+  top: -125px;
+  right: 10px;
+  width: 265px;
+}
+
+#Access main .sect_2 .wrapper .container .row {
+  position: relative;
+  margin: 85px 0 0;
+}
+
+#Access main .sect_2 .wrapper .container .row .col {
+  position: unset;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:first-child {
+  width: 50%;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:first-child .kid_img {
+  width: 60%;
+  border-radius: 20px;
+  background-image: url(/images/top/sect_2/img_4.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:first-child .float_img {
+  position: absolute;
+  top: -130px;
+  right: 0;
+  z-index: 6;
+  width: 396px;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child .col-content {
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 45px 0px 50px 50px;
+  margin: 40px 0 0;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child .col-content .tel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child .col-content .tel p {
+  margin-left: 10px;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child .col-content .tel p:nth-child(1) {
+  background-color: #369ce6;
+  padding: 5px 10px;
+  color: #fff;
+  line-height: 18px;
+  border-radius: 5px;
+  width: 49px;
+  height: 47px;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child .col-content .tel p:nth-child(2), #Access main .sect_2 .wrapper .container .row .col:last-child .col-content .tel p:nth-child(3) {
+  font-size: 15px;
+  line-height: normal;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child h3 {
+  text-align: left;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child .slogan {
+  width: 233px;
+  height: auto;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child .col-sub {
+  text-align: left;
+  color: #787878;
+  font-size: 12px;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child h4 {
+  font-size: 15px;
+  line-height: 32px;
+  letter-spacing: 0.08em;
+  color: #4e340d;
+  margin: 15px 0 0;
+  padding-bottom: 15px;
+  text-align: left;
+  border-bottom: 4px dashed #c3c3c3;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child .p_border {
+  width: 100%;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child .p_border:nth-child(5) {
+  margin: 3px 0 0;
+  display: block;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child p {
+  line-height: 30px;
+  letter-spacing: 0.025em;
+  color: #4e340d;
+  font-size: 14px;
+  margin: 3px 0 0;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child p span {
+  font-size: 17px;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child .tel {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 10px 0 0;
+}
+
+@media only screen and (max-width: 1070px) {
+  #Access main .sect_2 .wrapper .container .row .col:last-child .tel__txt {
+    width: 200px;
+  }
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child .tel a {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  color: #e93c71;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 0 13px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #Access main .sect_2 .wrapper .container .row .col:last-child .tel a {
+    font-size: 2.7vw;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  #Access main .sect_2 .wrapper .container .row .col:last-child .tel a {
+    font-size: 2.3vw;
+  }
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child .tel a svg {
+  width: 24px;
+  height: 24px;
+  margin: 0 5px 0;
+}
+
+#Access main .sect_2 .wrapper .container .row .col:last-child .tel a svg path {
+  fill: #e93c71;
 }
 /*# sourceMappingURL=style.css.map */
