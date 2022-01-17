@@ -62,12 +62,12 @@
       border: #d0f2fa solid 9px;
       border-radius: 20px;
       position: relative;
-      max-width: (691px/2);
+      max-width: calc(100% - 28px);
       .ttl {
         $height: (106px/2);
         position: absolute;
         height: $height;
-        width: (610px/2);
+        width: calc(100% - 24px);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -236,7 +236,7 @@
               $height: (106px/2);
               position: absolute;
               height: $height;
-              width: (610px/2);
+              width: calc(100% - 12px);
               display: flex;
               align-items: center;
               justify-content: center;
