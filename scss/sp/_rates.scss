@@ -131,8 +131,10 @@
               text-align: center;
               justify-content: center;
               border-radius: 10px;
+              position: relative;
               &:not(:last-child) {
                 margin-bottom: 3px;
+                
               }
               &.yellow {
                 background-color: #f39800;
@@ -187,9 +189,9 @@
                 color: #fff;
               }
             }
-            + p {
-              max-width: 800px;
+            p {
               margin: (50px/2) auto 0;
+              font-size: (24px/2);
             }
           }
         }
@@ -304,7 +306,26 @@
   .sect_6 {
     background: url(/images/rates/sect_6/bg_calculate.png) center center / cover
       no-repeat;
-    padding: 80px 0;
+    padding: (78px/2) 0 (200px/2);
+    .container {
+      .ttl_cont {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: (60px/2);
+        .ttl {
+          width: (538px/2);
+          margin: 0 0 (28px/2);
+        }
+        .dot {
+          width: 409px;
+          margin-bottom: (45px/2);
+        }
+        .text {
+          font-weight: 900;
+        }
+      }
+    }
     .calculate {
       &__row {
         display: flex;
@@ -341,6 +362,13 @@
             }
           }
         }
+        &:last-child {
+          p {
+            span {
+              font-size: (24px/2);
+            }
+          }
+        }
         .checkboxGroup {
           padding: 0;
           margin: 0;
@@ -357,7 +385,18 @@
           }
           select {
             width: 100%;
+            &:first-child {
+              margin-top: 11px;
+              margin-bottom: 5px;
+            }
+            &:last-child {
+              margin-top: 5px;
+            }
           }
+        }
+        #membership_fee {
+          width: 100%;
+          margin-top: 11px;
         }
       }
       &__btnArea {
@@ -383,15 +422,18 @@
       }
       &__result {
         @include Noto_Sans;
-        font-size: 28px;
-        margin-top: 40px;
+        font-size: (42px/2);
+        margin-top: (50px/2);
+        text-align: center;
         .label {
-          margin-right: 60px;
+          margin-right: (95px/2);
+          font-weight: bold;
         }
         .total {
+          font-weight: bold;
           small {
             @include Noto_Sans;
-            font-size: 14px;
+            font-size: (24px/2);
           }
         }
       }
