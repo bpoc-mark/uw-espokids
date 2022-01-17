@@ -32,7 +32,26 @@
             <section class="sect_1">
                 <div class="wrapper">
                     <div class="content">
-
+                        <!-- Slider main container -->
+                        <div class="swiper top_swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide slide-img-1"></div>
+                                <div class="swiper-slide slide-img-2"></div>
+                                <div class="swiper-slide slide-img-3"></div>
+                                <div class="swiper-slide slide-img-4"></div>
+                                <div class="swiper-slide slide-img-5"></div>
+                                <div class="swiper-slide slide-img-6"></div>
+                                <div class="swiper-slide slide-img-7"></div>
+                                <div class="swiper-slide slide-img-8"></div>
+                                <div class="swiper-slide slide-img-9"></div>
+                                <div class="swiper-slide slide-img-10"></div>
+                                <div class="swiper-slide slide-img-11"></div>
+                                <div class="swiper-slide slide-img-12"></div>
+                                <div class="swiper-slide slide-img-13"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -47,6 +66,7 @@
                                     <img src="/images/top/sect_2/header_txt_2.svg" class="sub" alt="遠鉄の学童保育" class="">
                                 </picture>
                                 <img src="/images/top/sect_2/header_dot.svg" class="dot" alt="Dot">
+                                <img src="/images/top/sect_2/price_banner.png" class="price_banner" alt="">
                             </div>
                             <p class="desc">
                                 子どもたちが放課後、学校のグラウンドや公園で楽しく遊ぶ姿。<br>
@@ -112,6 +132,101 @@
             <section class="sect_3">
                 <div class="wrapper">
                     <div class="container">
+                        <div class="content">
+                            <div class="ttl">
+                                <h3><img src="/images/top/sect_3/header_txt.svg" alt="ずっと通いたい!"></h3>
+                                <img class="dot" src="/images/top/sect_3/header_dot.svg" alt="dot">
+                                <p>エスポキッズにはお子様が自主的に<br class="sp">通いたいと思う魅力がたくさん詰まっています</p>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <img class="bg" src="/images/top/sect_3/row_bg_img_1.png" alt="">
+                                    <div class="txt_cont">
+                                        <h4>
+                                            <span>安心・安全面を</span><br>
+                                            最重要視
+                                        </h4>
+                                        <p>
+                                            お迎えサービスや、<br class="sp">お子様が到着後<br>
+                                            到着メールのご連絡など<br>
+                                            安心・安全面を<br class="sp">最重視します
+                                        </p>
+                                        <a href=""><img src="/images/top/sect_3/link_icon_1.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <img class="bg" src="/images/top/sect_3/row_bg_img_2.png" alt="">
+                                    <div class="txt_cont">
+                                        <h4>
+                                            <span>お家の方の</span><br>
+                                            「困った」に対応
+                                        </h4>
+                                        <p>
+                                            急な用事など<br>
+                                            柔軟に対応いたします<br>
+                                            お預かり時間も<br class="sp">選択可能です
+                                        </p>
+                                        <a href=""><img src="/images/top/sect_3/link_icon_2.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <img class="bg" src="/images/top/sect_3/row_bg_img_3.png" alt="">
+                                    <div class="txt_cont">
+                                        <h4>
+                                            <span>習い事選択は</span><br>
+                                            運動・知育、<br class="sp">両方OK
+                                        </h4>
+                                        <p>
+                                            エスポだからできる!<br>
+                                            多彩なカリキュラムから<br>
+                                            運動・知育、両面を<br class="sp">ご提供します
+                                        </p>
+                                        <a href=""><img src="/images/top/sect_3/link_icon_3.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sect_4">
+                <div class="wrapper">
+                    <div class="content">
+                        <div class="row">
+                            <div class="col">
+                                <picture>
+                                    <source srcset="/images/top/sect_4/sp/img_1.jpg" media="(max-width: 899px)">
+                                    <img class="bg" src="/images/top/sect_4/img_1.jpg" class="sub" alt="サービス内容" class="">
+                                </picture>
+                                <div class="txt_cont">
+                                    <h3><img src="/images/top/sect_4/ttl_img1.svg" alt="サービス内容"></h3>
+                                    <p>カリキュラム内容や1日の流れなどを紹介</p>
+                                    <a href="">VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <picture>
+                                    <source srcset="/images/top/sect_4/sp/img_2.jpg" media="(max-width: 899px)">
+                                    <img class="bg" src="/images/top/sect_4/img_2.jpg" class="sub" alt="料金" class="">
+                                </picture>
+                                <div class="txt_cont">
+                                    <h3><img src="/images/top/sect_4/ttl_img2.svg" alt="料金"></h3>
+                                    <p>ご要望に応じて選択、料金シュミレーションもできます</p>
+                                    <a href="">VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <picture>
+                                    <source srcset="/images/top/sect_4/sp/img_3.jpg" media="(max-width: 899px)">
+                                    <img class="bg" src="/images/top/sect_4/img_3.jpg" class="sub" alt="施設&アクセス" class="">
+                                </picture>
+                                <div class="txt_cont">
+                                    <h3><img src="/images/top/sect_4/ttl_img3.svg" alt="施設&アクセス"></h3>
+                                    <p>エスポキッズまでのアクセス方法</p>
+                                    <a href="">VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -122,6 +237,23 @@
 		</footer> -->
     </div><!-- //AllBox -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
+
+    <script>
+        const swiper1 = new Swiper('.top_swiper', {
+			// Optional parameters
+			direction: 'horizontal',
+			allowTouchMove: false,
+			loop: true,
+			speed: 3000,
+			autoplay: {
+				delay: 3000,
+			},
+			effect: 'fade',
+			fadeEffect: {
+				crossFade: true
+			}
+		});
+    </script>
 </body>
 
 </html>
