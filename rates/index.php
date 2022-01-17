@@ -49,7 +49,7 @@
                             </div>
                         </div>
                         <div class="img_ttl">
-                            <img src="/images/rates/sect_2/img_ttl.png" alt="">
+                            <img src="/images/rates/sect_2/img_ttl.png" alt="img header">
                         </div>
                     </div>
                 </div>
@@ -201,6 +201,11 @@
             <section class="sect_6">
                 <div class="wrapper">
                     <div class="container">
+                        <div class="ttl_cont">
+                            <img src="/images/rates/sect_6/header_text_01.svg" class="ttl" alt="料金シミュレーション （レギュラー会員）">
+                            <img src="/images/common/header_dot.svg" class="dot" alt="Dot">
+                            <p class="text">下記を入力して、「計算する」ボタンを押してください。概算の月会費が表示されます。</p>
+                        </div>
                         <div class="content" id="calculate">
                             <div class="calculate__row">
                                 <div class="calculate__col">
