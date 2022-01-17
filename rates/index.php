@@ -370,10 +370,9 @@
                 </div>
             </section>
         </main>
-
-        <!-- <footer>
-			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
-		</footer> -->
+        <footer>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
+        </footer>
     </div><!-- //AllBox -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
     <script type="text/javascript">
