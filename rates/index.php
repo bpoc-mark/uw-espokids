@@ -58,7 +58,7 @@
                 <div class="wrapper">
                     <div class="container border">
                         <div class="ttl">
-                            <p>レギュラー会員 <br class="u-d-o-sp">（毎週固定曜日の定期的なお預かり）</p>
+                            <p>レギュラー会員 <br class="u-d-o-sp"><span>（毎週固定曜日の定期的なお預かり）</span></p>
                         </div>
                         <div class="content">
                             <div class="amount-setting">
