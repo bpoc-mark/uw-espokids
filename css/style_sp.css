@@ -2090,6 +2090,10 @@ img[src$=".png"], img[src$=".jpg"] {
   Rates Page
 ==================================*/
 @use 'sass:math';
+#Rates {
+  overflow: hidden;
+}
+
 #Rates main .u-d-o-pc {
   display: none;
 }
