@@ -2124,7 +2124,10 @@ img[src$='.png'], img[src$='.jpg'] {
 }
 
 #Rates main .sect_4 .container .content .package__col .vector {
-  display: none;
+  right: 0;
+  bottom: 0;
+  max-width: 61.5px;
+  position: absolute;
 }
 
 #Rates main .sect_4 .container .content .options__row {
