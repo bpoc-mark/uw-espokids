@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import "_mixins.scss";
+@import '_mixins.scss';
 
 /*==================================
   Component
@@ -15,8 +15,8 @@ img {
   max-width: 100%;
   height: auto;
 
-  &[src$=".png"],
-  &[src$=".jpg"] {
+  &[src$='.png'],
+  &[src$='.jpg'] {
     backface-visibility: hidden;
   }
 }
@@ -175,7 +175,7 @@ img {
       font-weight: 500;
       box-sizing: border-box;
       &::before {
-        content: "";
+        content: '';
         position: absolute;
         top: 0;
         bottom: 0;
@@ -230,7 +230,7 @@ img {
           padding-left: 24px;
           position: relative;
           &::before {
-            content: "";
+            content: '';
             position: absolute;
             top: 0;
             left: 0;
@@ -281,5 +281,70 @@ img {
         color: #fff;
       }
     }
+  }
+}
+.c-select01 {
+  padding: 5px 10px;
+  border: none !important;
+  width: 380px;
+  // background: #fff url(../img/bg_form_select_01.svg) no-repeat;
+  background-position: right 14px center;
+  background-size: 10px 10px;
+  height: 50px;
+  font-size: 1.125rem;
+  display: inline-block;
+  @include Noto_Sans;
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
+.c-checkbox03 {
+  $checkbox: &;
+  position: relative;
+  &__input {
+    width: 0 !important;
+    height: 0 !important;
+    margin: auto !important;
+    padding: 0 !important;
+    appearance: none;
+    position: absolute;
+    z-index: -999;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    &:checked + #{$checkbox}__label {
+      #{$checkbox}__check {
+        background: #fff;
+        &:after {
+          content: '';
+          background: url(../images/common/img_checkbox_arrow.svg) center center /
+            100% no-repeat;
+          width: 12px;
+          padding: 1px;
+        }
+      }
+    }
+  }
+  &__check {
+    display: flex;
+    justify-content: center;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    margin: 0 5px 0 0;
+    border: solid 1px #efe2c9;
+    &:before {
+    }
+  }
+  &__name {
+    width: calc(100% - 18px);
+    padding-left: 7px;
+  }
+  &__label {
+    display: flex !important;
+    align-items: center;
+    position: relative;
   }
 }
