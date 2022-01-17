@@ -9,18 +9,6 @@ body {
   .u-d-o-sp {
     display: none;
   }
-  .sect_1 {
-    .wrapper {
-      width: 100%;
-      height: 670px;
-      .content {
-        width: 100%;
-        height: 100%;
-        background: url(/images/rates/sect_1/bg_mv.png) center center / cover
-          no-repeat;
-      }
-    }
-  }
   .sect_2 {
     position: relative;
     .wrapper {
@@ -35,11 +23,11 @@ body {
           height: $height;
           background-color: #fff;
           position: absolute;
-          top: ((($height/2) - 45px) * -1);
+          top: ((($height/2) - 65px) * -1);
           left: 0;
           right: 0;
           z-index: 0;
-          border-radius: 50%;
+          border-radius: 100%;
           margin: 0 auto;
         }
         .img_ttl {

@@ -31,7 +31,14 @@
         <main>
             <section class="c-mainVisual c-mainVisual--rates">
                 <div class="wrapper">
-                    <div class="content">
+                    <div class="bg">
+                    </div>
+                    <div class="container">
+                        <div class="text">
+                            <h1>
+                                <img src="/images/rates/sect_1/img_page_title_rates.svg" class="ttl" alt="料金">
+                            </h1>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -40,16 +47,21 @@
                     <div class="container">
                         <div class="content">
                             <div class="ttl_cont">
-                                <picture>
-                                    <source srcset="/images/rates/sect_2/sp/header_text_01.svg" media="(max-width: 899px)">
-                                    <img src="/images/rates/sect_2/header_text_01.svg" class="ttl" alt="料金について">
-                                </picture>
+                                <h2>
+                                    <picture>
+                                        <source srcset="/images/rates/sect_2/sp/header_text_01.svg" media="(max-width: 899px)">
+                                        <img src="/images/rates/sect_2/header_text_01.svg" class="ttl" alt="料金について">
+                                    </picture>
+                                </h2>
                                 <img src="/images/common/header_dot.svg" class="dot" alt="Dot">
                                 <p class="text">月額5,500円～ご要望に応じて日数、プランをご選択いただけます。</p>
                             </div>
                         </div>
                         <div class="img_ttl">
-                            <img src="/images/rates/sect_2/img_ttl.png" alt="img header">
+                            <picture>
+                                <source srcset="/images/rates/sect_2/sp/img_ttl_sp.png" media="(max-width: 899px)">
+                                <img src="/images/rates/sect_2/img_ttl.png" class="ttl" alt="img header">
+                            </picture>
                         </div>
                     </div>
                 </div>
@@ -148,7 +160,7 @@
                                     </div>
                                     <p class="info">
                                         8時30分～19時まで<br>
-                                        ● 習い事、お迎え代は別途有料(オプション選択)。
+                                        ● 習い事、お迎え代は別途有料<br class="u-d-o-sp">(オプション選択)。</br>
                                     </p>
                                     <div class="table">
                                         <picture>
