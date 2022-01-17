@@ -136,6 +136,13 @@ body {
               margin: auto;
               p {
                 color: #fff;
+                display: flex;
+                align-items: center;
+                line-height: 1;
+              }
+              .arrow {
+                width: 11px;
+                margin-left: 20px;
               }
             }
           }
@@ -165,6 +172,13 @@ body {
               margin: auto;
               p {
                 color: #fff;
+                display: flex;
+                align-items: center;
+                line-height: 1;
+              }
+              .arrow {
+                width: 11px;
+                margin-left: 20px;
               }
             }
             p {

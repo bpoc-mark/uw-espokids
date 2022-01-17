@@ -92,7 +92,7 @@
                                 </ul>
                                 <div class="amount-setting__btnArea">
                                     <a href="#">
-                                        <p> 料金シミュレーションはこちら</p>
+                                        <p> 料金シミュレーションはこちら <img src="/images/common/img_arrow_down.png" class="arrow" alt="Arrow Down"></p>
                                     </a>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@
                             </div>
                             <div class="amount-table__btnArea">
                                 <a href="#">
-                                    <p> 料金シミュレーションはこちら</p>
+                                    <p> 料金シミュレーションはこちら <img src="/images/common/img_arrow_down.png" class="arrow" alt="Arrow Down"></p>
                                 </a>
                                 <p>
                                     ● 初回のみ入会金5,500円、事務手数料5,500円が別途必要になります（レギュラー会員・スポット会員共通）。<br>

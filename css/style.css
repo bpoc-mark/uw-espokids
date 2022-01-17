@@ -2411,6 +2411,18 @@ body {
 
 #Rates main .sect_3 .container .content .amount-setting__btnArea a p {
   color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1;
+}
+
+#Rates main .sect_3 .container .content .amount-setting__btnArea a .arrow {
+  width: 11px;
+  margin-left: 20px;
 }
 
 #Rates main .sect_3 .container .content .amount-table {
@@ -2461,6 +2473,18 @@ body {
 
 #Rates main .sect_3 .container .content .amount-table__btnArea a p {
   color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1;
+}
+
+#Rates main .sect_3 .container .content .amount-table__btnArea a .arrow {
+  width: 11px;
+  margin-left: 20px;
 }
 
 #Rates main .sect_3 .container .content .amount-table__btnArea p {

@@ -160,6 +160,13 @@
               margin: auto;
               p {
                 color: #fff;
+                display: flex;
+                align-items: center;
+                line-height: 1;
+              }
+              .arrow {
+                width: 11px;
+                margin-left: (22px/2);
               }
             }
           }
@@ -175,7 +182,7 @@
           &__btnArea {
             margin-top: 44px;
             a {
-              height: 60px;
+              height: (90px/2);
               display: flex;
               align-items: center;
               justify-content: center;
@@ -185,6 +192,13 @@
               margin: auto;
               p {
                 color: #fff;
+                display: flex;
+                align-items: center;
+                line-height: 1;
+              }
+              .arrow {
+                width: 11px;
+                margin-left: (22px/2);
               }
             }
             > p {
@@ -405,8 +419,8 @@
         flex-flow: column;
         button,
         a {
-          height: 45px;
-          width: 210px;
+          height: (90px/2);
+          width: (600px/2);
           display: flex;
           align-items: center;
           justify-content: center;

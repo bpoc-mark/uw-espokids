@@ -1957,6 +1957,18 @@ img[src$='.png'], img[src$='.jpg'] {
 
 #Rates main .sect_3 .container .content .amount-setting__btnArea a p {
   color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1;
+}
+
+#Rates main .sect_3 .container .content .amount-setting__btnArea a .arrow {
+  width: 11px;
+  margin-left: 11px;
 }
 
 #Rates main .sect_3 .container .content .amount-table {
@@ -1982,7 +1994,7 @@ img[src$='.png'], img[src$='.jpg'] {
 }
 
 #Rates main .sect_3 .container .content .amount-table__btnArea a {
-  height: 60px;
+  height: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2000,6 +2012,18 @@ img[src$='.png'], img[src$='.jpg'] {
 
 #Rates main .sect_3 .container .content .amount-table__btnArea a p {
   color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1;
+}
+
+#Rates main .sect_3 .container .content .amount-table__btnArea a .arrow {
+  width: 11px;
+  margin-left: 11px;
 }
 
 #Rates main .sect_3 .container .content .amount-table__btnArea > p {
@@ -2293,7 +2317,7 @@ img[src$='.png'], img[src$='.jpg'] {
 #Rates main .sect_6 .calculate__btnArea button,
 #Rates main .sect_6 .calculate__btnArea a {
   height: 45px;
-  width: 210px;
+  width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
