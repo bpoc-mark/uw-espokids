@@ -183,14 +183,14 @@
                         <div class="content">
                             <div class="ttl_cont">
                                 <picture>
-                                    <source srcset="/images/rates/sect_5/sp/header_text_01.svg" media="(max-width: 899px)">
+                                    <source srcset="/images/rates/sect_5/header_text_01.svg" media="(max-width: 899px)">
                                     <img src="/images/rates/sect_5/header_text_01.svg" class="ttl" alt="割引制度">
                                 </picture>
                                 <img src="/images/common/header_dot.svg" class="dot" alt="Dot">
                             </div>
                             <div class="discount">
                                 <picture>
-                                    <source srcset="/images/rates/sect_5/sp/img_discount_sp.svg" media="(max-width: 899px)">
+                                    <source srcset="/images/rates/sect_5/sp/img_discount_sp.png" media="(max-width: 899px)">
                                     <img src="/images/rates/sect_5/img_discount.png" class="ttl" alt="割引">
                                 </picture>
                             </div>
@@ -309,7 +309,7 @@
                                 </div>
                                 <div class="calculate__col">
                                     <p class="u-d-o-pc">ご興味のある習い事をお選び下さい（複数選択可）</p>
-                                    <br>
+                                    <br class="u-d-o-pc">
                                     <div class="selectionGroup">
                                         <select class="c-select01" id="pickup_fee" name="pickup_fee">
                                             <option value="0" selected>お迎えは利用しない</option>

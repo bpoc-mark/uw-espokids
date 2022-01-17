@@ -2,9 +2,6 @@
   Rates Page
 ==================================*/
 @use 'sass:math';
-body {
-  margin: 0;
-}
 #Rates main {
   .u-d-o-pc {
     display: none;
@@ -190,7 +187,7 @@ body {
                 color: #fff;
               }
             }
-            p {
+            + p {
               max-width: 800px;
               margin: (50px/2) auto 0;
             }
@@ -202,8 +199,6 @@ body {
   .sect_4 {
     margin: 90px auto;
     .container {
-      padding-left: 0;
-      padding-right: 0;
       .content {
         .package {
           &__row {
@@ -268,10 +263,11 @@ body {
         .options {
           &__row {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             margin-top: 50px;
+            flex-wrap: wrap;
             .divider {
-              width: 2px;
+              display: none;
             }
           }
           &__col {
@@ -346,18 +342,21 @@ body {
           }
         }
         .checkboxGroup {
+          padding: 0;
+          margin: 0;
           & > li {
             display: inline-flex;
             margin-right: 30px;
           }
         }
         .selectionGroup {
+          text-align: center;
           span {
             @include Noto_Sans;
             font-weight: 600;
           }
           select {
-            width: 280px;
+            width: 100%;
           }
         }
       }
