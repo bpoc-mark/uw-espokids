@@ -37,7 +37,7 @@
                     <div class="container">
                         <div class="text">
                             <h1>
-                                <img src="/images/access/sect_1/img_page_title_access.svg" class="ttl" alt="料金">
+                                <img src="/images/access/sect_1/img_page_title_access.svg" class="ttl" alt="アクセス">
                             </h1>
                         </div>
                     </div>

@@ -24,14 +24,14 @@
       padding: 0 0 80px;
       .container {
         position: relative;
-        &::before {
+        &::before{
           content: "";
           display: block;
-          max-width: 1025px;
-          height: 295px;
+          width: 90%;
+          height: 147.5px;
           background-color: #fff;
           position: absolute;
-          top: -85px;
+          top: -25px;
           left: 0;
           right: 0;
           z-index: 0;
@@ -71,9 +71,9 @@
         }
         .img_tl {
           position: absolute;
-          top: -80px;
-          left: 20px;
-          width: 145px;
+          top: -55px;
+          left: 10px;
+          width: 129px;
         }
         .img_tr {
           position: absolute;

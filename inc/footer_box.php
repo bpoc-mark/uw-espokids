@@ -2,16 +2,16 @@
     <div class="footer_1">
         <div class="container">
             <img class="img_1" src="/images/common/footer_img_1.png" alt="footer_img_1">
-            <h1 class="footer_1__ttl">
-                <img src="/images/common/footer_ttl.svg" alt="footer_title">
-            </h1>
+            <h3 class="footer_1__ttl">
+                <img src="/images/common/footer_ttl.svg" alt="お問い合わせ">
+            </h3>
             <p class="footer_1__desc">
                 当社スタッフがお客様のご要望を確認し、おすすめのコース等ご案内申し上げます。<br>ご希望の方には、無料体験も承っておりますので、お電話にてお気軽にお申しつけ下さい。
             </p>
             <div class="footer_1__contact-dtls">
                 <div class="col">
                     <img src="/images/common/footer_tel.svg" alt="telephone icon">
-                    <p>053-462-4414</p>
+                    <p><a href="tel:053-462-4414">053-462-4414</a></p>
                 </div>
                 <div class="col">
                     <a href="https://www.esc-espo.jp/contact/?id=1" target="_blank" style="width: 100%; display: flex;">
@@ -49,7 +49,7 @@
                             <p class="add_dtls">月～金曜日 / 13：00～19：00<br>祝・長期休 / 8：30～19：00</p>
                         </div>
                     </div>
-                    <p class="contact">〒430-0903　浜松市中区助信町51-5<br class="sp">（浜松中心部 / 助信駅前）<br>TEL: 053-462-4414 / FAX:
+                    <p class="contact">〒430-0903　浜松市中区助信町51-5<br class="sp">（浜松中心部 / 助信駅前）<br>TEL: <a href="tel:053-462-4414">053-462-4414</a> / FAX:
                         053-462-4415</p>
                 </div>
                 <div class="col">
@@ -81,19 +81,6 @@
             <img class="back-to-top" src="/images/common/back-to-top.svg" alt="back to top">
         </button>
     </div>
-
-
-    <!-- <div class="logo"><a href="/"><img src="" alt="<?php echo SITE_NAME; ?>"></a></div>
-
-	<nav>
-		<ul>
-			<li><a href="/">ホーム</a></li>
-			<li><a href="/about/">このサイトついて</a></li>
-			<li><a href="/sitemap">サイトマップ</a></li>
-			<li><a href="/privacy">プライバシーポリシー</a></li>
-		</ul>
-	</nav> -->
-
     <div class="copy">
         <div class="container">
             <div class="row">
@@ -110,5 +97,4 @@
             </div>
         </div>
     </div>
-
 </div>

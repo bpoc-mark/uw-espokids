@@ -328,9 +328,9 @@
             </section>
         </main>
 
-        <!-- <footer>
+        <footer>
 			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
-		</footer> -->
+		</footer>
     </div><!-- //AllBox -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
 </body>

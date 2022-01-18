@@ -286,7 +286,8 @@ img {
 
 .footer_inner {
   .footer_1 {
-    background-color: #ea4078;
+    background: url(/images/common/footer_bg.jpg) center center / cover
+        no-repeat;
     .container {
       position: relative;
       .img_1 {
@@ -364,16 +365,21 @@ img {
           img {
             width: 27px;
             height: auto;
-            margin-right: 18px;
+            margin-right: 8px;
             @include sp {
-              margin-right: 10px;
+              margin-right: 5px;
             }
           }
           p {
-            color: #fff714;
-            font-size: 38px;
-            font-weight: 400;
-            line-height: 1;
+            a{
+              @include YuGo_bold();
+              color: #fff714;
+              font-size: 38px;
+              line-height: 1;
+              @include sp{
+                font-size: 35px;
+              }
+            }
           }
         }
         &:last-child {
@@ -419,6 +425,20 @@ img {
     .wrapper .bg {
       background: url(/images/access/sect_1/bg_mv.png) center center / cover
         no-repeat;
+        @include sp {
+          background: url(/images/access/sect_1/bg_mv-sp.jpg) center center /
+            cover no-repeat;
+        }
+    }
+    .wrapper{
+      .container{
+        .text{
+          width: 200px !important;
+          @include sp{
+            width: 101px !important;
+          }
+        }
+      }
     }
   }
   &--services {

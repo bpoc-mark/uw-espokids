@@ -66,7 +66,7 @@
                                     <img src="/images/top/sect_2/header_txt_2.svg" class="sub" alt="遠鉄の学童保育" class="">
                                 </picture>
                                 <img src="/images/top/sect_2/header_dot.svg" class="dot" alt="Dot">
-                                <img src="/images/top/sect_2/price_banner.png" class="price_banner" alt="">
+                                <img src="/images/top/sect_2/price_banner.png" class="price_banner" alt="月額 5,500円〜">
                             </div>
                             <p class="desc">
                                 子どもたちが放課後、学校のグラウンドや公園で楽しく遊ぶ姿。<br>
@@ -232,9 +232,9 @@
             </section>
         </main>
 
-        <!-- <footer>
+        <footer>
 			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
-		</footer> -->
+		</footer>
     </div><!-- //AllBox -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
 
