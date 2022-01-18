@@ -471,9 +471,10 @@ header {
   opacity: 0;
   position: fixed;
   right: 0;
-  bottom: 0;
+  bottom: 45px;
   z-index: 888;
   transition: 0.3s;
+  width: 54px;
   &.active {
     opacity: 1;
   }

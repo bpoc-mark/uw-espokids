@@ -251,7 +251,7 @@
               .txt_cont{
                 width: 100%;
                 position: absolute;
-                top: 55%;
+                top: 53%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 z-index: 5;
@@ -275,8 +275,8 @@
                   text-align: center;
                   margin: 11px 0 0;
                 }
-                a{
-                  margin: 7px 0 0;
+                span{
+                  margin: 5px 0 0;
                   display: inline-block;
                   img{
                     width: 31.5px;
@@ -333,7 +333,7 @@
                 letter-spacing: .08em;
                 margin: 10px 0 0;
               }
-              a{
+              span{
                 position: relative;
                 display: flex;
                 align-items: center;

@@ -391,6 +391,7 @@ header .header_inner .nav__link img {
   bottom: 0;
   z-index: 888;
   transition: 0.3s;
+  width: 72px;
 }
 
 #pageTop.active {
@@ -1486,12 +1487,12 @@ img[src$=".png"], img[src$=".jpg"] {
   margin: 17px 0 0;
 }
 
-#Top main .sect_3 .wrapper .container .content .row .col .txt_cont a {
-  margin: 35px 0 0;
+#Top main .sect_3 .wrapper .container .content .row .col .txt_cont span {
+  margin: 30px 0 0;
   display: inline-block;
 }
 
-#Top main .sect_3 .wrapper .container .content .row .col .txt_cont a img {
+#Top main .sect_3 .wrapper .container .content .row .col .txt_cont span img {
   width: 36px;
 }
 
@@ -1516,7 +1517,7 @@ img[src$=".png"], img[src$=".jpg"] {
   margin: 10px 0 0;
 }
 
-#Top main .sect_4 .wrapper .content .row .col .txt_cont a {
+#Top main .sect_4 .wrapper .content .row .col .txt_cont span {
   position: relative;
   display: flex;
   align-items: center;
@@ -1531,7 +1532,7 @@ img[src$=".png"], img[src$=".jpg"] {
   color: #ef7000;
 }
 
-#Top main .sect_4 .wrapper .content .row .col .txt_cont a img {
+#Top main .sect_4 .wrapper .content .row .col .txt_cont span img {
   width: 9px;
   position: absolute;
   top: 12px;

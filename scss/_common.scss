@@ -341,6 +341,7 @@ header {
   bottom: 0;
   z-index: 888;
   transition: 0.3s;
+  width: 72px;
   &.active {
     opacity: 1;
   }

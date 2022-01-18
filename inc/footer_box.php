@@ -77,9 +77,9 @@
                 </div>
             </div>
         </div>
-        <button id="btnBackTop" style="position: fixed;z-index: 9999;bottom: 60px;right: 25px;width: 72px;">
+        <a href="#" id="pageTop">
             <img class="back-to-top" src="/images/common/back-to-top.svg" alt="back to top">
-        </button>
+        </a>
     </div>
     <div class="copy">
         <div class="container">

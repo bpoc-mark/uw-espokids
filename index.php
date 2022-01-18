@@ -140,49 +140,55 @@
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <img class="bg" src="/images/top/sect_3/row_bg_img_1.png" alt="">
-                                    <div class="txt_cont">
-                                        <h4>
-                                            <span>安心・安全面を</span><br>
-                                            最重要視
-                                        </h4>
-                                        <p>
-                                            お迎えサービスや、<br class="sp">お子様が到着後<br>
-                                            到着メールのご連絡など<br>
-                                            安心・安全面を<br class="sp">最重視します
-                                        </p>
-                                        <a href=""><img src="/images/top/sect_3/link_icon_1.png" alt=""></a>
-                                    </div>
+                                    <a href="">
+                                        <img class="bg" src="/images/top/sect_3/row_bg_img_1.png" alt="">
+                                        <div class="txt_cont">
+                                            <h4>
+                                                <span>安心・安全面を</span><br>
+                                                最重要視
+                                            </h4>
+                                            <p>
+                                                お迎えサービスや、<br class="sp">お子様が到着後<br>
+                                                到着メールのご連絡など<br>
+                                                安心・安全面を<br class="sp">最重視します
+                                            </p>
+                                            <span><img src="/images/top/sect_3/link_icon_1.png" alt=""></span>
+                                        </div>
+                                    </a>
                                 </div>
                                 <div class="col">
-                                    <img class="bg" src="/images/top/sect_3/row_bg_img_2.png" alt="">
-                                    <div class="txt_cont">
-                                        <h4>
-                                            <span>お家の方の</span><br>
-                                            「困った」に対応
-                                        </h4>
-                                        <p>
-                                            急な用事など<br>
-                                            柔軟に対応いたします<br>
-                                            お預かり時間も<br class="sp">選択可能です
-                                        </p>
-                                        <a href=""><img src="/images/top/sect_3/link_icon_2.png" alt=""></a>
-                                    </div>
+                                    <a href="">
+                                        <img class="bg" src="/images/top/sect_3/row_bg_img_2.png" alt="">
+                                        <div class="txt_cont">
+                                            <h4>
+                                                <span>お家の方の</span><br>
+                                                「困った」に対応
+                                            </h4>
+                                            <p>
+                                                急な用事など<br>
+                                                柔軟に対応いたします<br>
+                                                お預かり時間も<br class="sp">選択可能です
+                                            </p>
+                                            <span><img src="/images/top/sect_3/link_icon_2.png" alt=""></span>
+                                        </div>
+                                    </a>
                                 </div>
                                 <div class="col">
-                                    <img class="bg" src="/images/top/sect_3/row_bg_img_3.png" alt="">
-                                    <div class="txt_cont">
-                                        <h4>
-                                            <span>習い事選択は</span><br>
-                                            運動・知育、<br class="sp">両方OK
-                                        </h4>
-                                        <p>
-                                            エスポだからできる!<br>
-                                            多彩なカリキュラムから<br>
-                                            運動・知育、両面を<br class="sp">ご提供します
-                                        </p>
-                                        <a href=""><img src="/images/top/sect_3/link_icon_3.png" alt=""></a>
-                                    </div>
+                                    <a href="">
+                                        <img class="bg" src="/images/top/sect_3/row_bg_img_3.png" alt="">
+                                        <div class="txt_cont">
+                                            <h4>
+                                                <span>習い事選択は</span><br>
+                                                運動・知育、<br class="sp">両方OK
+                                            </h4>
+                                            <p>
+                                                エスポだからできる!<br>
+                                                多彩なカリキュラムから<br>
+                                                運動・知育、両面を<br class="sp">ご提供します
+                                            </p>
+                                            <span><img src="/images/top/sect_3/link_icon_3.png" alt=""></span>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -194,17 +200,20 @@
                     <div class="content">
                         <div class="row">
                             <div class="col">
-                                <picture>
-                                    <source srcset="/images/top/sect_4/sp/img_1.jpg" media="(max-width: 899px)">
-                                    <img class="bg" src="/images/top/sect_4/img_1.jpg" class="sub" alt="サービス内容" class="">
-                                </picture>
-                                <div class="txt_cont">
-                                    <h3><img src="/images/top/sect_4/ttl_img1.svg" alt="サービス内容"></h3>
-                                    <p>カリキュラム内容や1日の流れなどを紹介</p>
-                                    <a href="/service/">VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></a>
-                                </div>
+                                <a href="/service/">
+                                    <picture>
+                                        <source srcset="/images/top/sect_4/sp/img_1.jpg" media="(max-width: 899px)">
+                                        <img class="bg" src="/images/top/sect_4/img_1.jpg" class="sub" alt="サービス内容" class="">
+                                    </picture>
+                                    <div class="txt_cont">
+                                        <h3><img src="/images/top/sect_4/ttl_img1.svg" alt="サービス内容"></h3>
+                                        <p>カリキュラム内容や1日の流れなどを紹介</p>
+                                        <span >VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></span>
+                                    </div>
+                                </a>
                             </div>
                             <div class="col">
+                                <a href="/rates/">
                                 <picture>
                                     <source srcset="/images/top/sect_4/sp/img_2.jpg" media="(max-width: 899px)">
                                     <img class="bg" src="/images/top/sect_4/img_2.jpg" class="sub" alt="料金" class="">
@@ -212,19 +221,22 @@
                                 <div class="txt_cont">
                                     <h3><img src="/images/top/sect_4/ttl_img2.svg" alt="料金"></h3>
                                     <p>ご要望に応じて選択、料金シュミレーションもできます</p>
-                                    <a href="/rates/">VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></a>
+                                    <span >VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></span>
                                 </div>
+                                </a>
                             </div>
                             <div class="col">
-                                <picture>
-                                    <source srcset="/images/top/sect_4/sp/img_3.jpg" media="(max-width: 899px)">
-                                    <img class="bg" src="/images/top/sect_4/img_3.jpg" class="sub" alt="施設&アクセス" class="">
-                                </picture>
-                                <div class="txt_cont">
-                                    <h3><img src="/images/top/sect_4/ttl_img3.svg" alt="施設&アクセス"></h3>
-                                    <p>エスポキッズまでのアクセス方法</p>
-                                    <a href="/access/">VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></a>
-                                </div>
+                                <a href="/access/">
+                                    <picture>
+                                        <source srcset="/images/top/sect_4/sp/img_3.jpg" media="(max-width: 899px)">
+                                        <img class="bg" src="/images/top/sect_4/img_3.jpg" class="sub" alt="施設&アクセス" class="">
+                                    </picture>
+                                    <div class="txt_cont">
+                                        <h3><img src="/images/top/sect_4/ttl_img3.svg" alt="施設&アクセス"></h3>
+                                        <p>エスポキッズまでのアクセス方法</p>
+                                        <span >VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></span>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
