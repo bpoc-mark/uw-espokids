@@ -77,7 +77,7 @@
                 </div>
             </div>
         </div>
-        <button id="btnBackTop">
+        <button id="btnBackTop" style="position: fixed;z-index: 9999;bottom: 60px;right: 25px;width: 72px;">
             <img class="back-to-top" src="/images/common/back-to-top.svg" alt="back to top">
         </button>
     </div>

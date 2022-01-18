@@ -16,7 +16,7 @@ $str = explode('/', $url); ?>
 			<li class="nav__item"><a href="/" class="nav__link" <?php if ($str[1] == "") {
 												echo ' class="here"';
 											} ?>><img src="/images/common/link_house_icon.svg" class="pc" alt=""><span class="sp">ホーム</span></a></li>
-			<li class="nav__item"><a href="/" class="nav__link" <?php if ($str[1] == "") {
+			<li class="nav__item"><a href="/service/" class="nav__link" <?php if ($str[1] == "") {
 															echo ' class="here"';
 														} ?>>サービス内容</a></li>
 			<li class="nav__item"><a href="/rates/" class="nav__link" <?php if ($str[1] == "") {

@@ -201,7 +201,7 @@
                                 <div class="txt_cont">
                                     <h3><img src="/images/top/sect_4/ttl_img1.svg" alt="サービス内容"></h3>
                                     <p>カリキュラム内容や1日の流れなどを紹介</p>
-                                    <a href="/">VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></a>
+                                    <a href="/service/">VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></a>
                                 </div>
                             </div>
                             <div class="col">
@@ -231,7 +231,6 @@
                 </div>
             </section>
         </main>
-
         <footer>
 			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
 		</footer>
