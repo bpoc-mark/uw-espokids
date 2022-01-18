@@ -1,9 +1,9 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/config.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/config.php"); ?>
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/tag_manager.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/tag_manager.php"); ?>
     <meta charset="UTF-8" />
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="<?php echo CANONICAL ?>">
@@ -16,16 +16,16 @@
 
     <title><?php echo SITE_NAME ?></title>
 
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/header_tag.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/header_include.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/ga.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/header_tag.php"); ?>
 </head>
 
 <body id="Top">
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/content_tag.php"); ?>
     <div id="AllBox">
         <header>
-            <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/header_box.php"); ?>
         </header>
 
         <main>
@@ -60,13 +60,13 @@
                     <div class="container">
                         <div class="content">
                             <div class="ttl_cont">
-                                <img src="/images/top/sect_2/header_txt_1.svg" class="ttl" alt="ぼくたち、わたしたちの未来を築く場所">
+                                <img src="/espokids/images/top/sect_2/header_txt_1.svg" class="ttl" alt="ぼくたち、わたしたちの未来を築く場所">
                                 <picture>
-                                    <source srcset="/images/top/sect_2/sp/header_txt_2.svg" media="(max-width: 899px)">
-                                    <img src="/images/top/sect_2/header_txt_2.svg" class="sub" alt="遠鉄の学童保育" class="">
+                                    <source srcset="/espokids/images/top/sect_2/sp/header_txt_2.svg" media="(max-width: 899px)">
+                                    <img src="/espokids/images/top/sect_2/header_txt_2.svg" class="sub" alt="遠鉄の学童保育" class="">
                                 </picture>
-                                <img src="/images/top/sect_2/header_dot.svg" class="dot" alt="Dot">
-                                <img src="/images/top/sect_2/price_banner.png" class="price_banner" alt="月額 5,500円〜">
+                                <img src="/espokids/images/top/sect_2/header_dot.svg" class="dot" alt="Dot">
+                                <img src="/espokids/images/top/sect_2/price_banner.png" class="price_banner" alt="月額 5,500円〜">
                             </div>
                             <p class="desc">
                                 子どもたちが放課後、学校のグラウンドや公園で楽しく遊ぶ姿。<br>
@@ -81,36 +81,36 @@
                                 お子様の人間的豊かさをより一層育みます。
                             </p>
                         </div>
-                        <img src="/images/top/sect_2/img_1.png" class="img_tl" alt="">
+                        <img src="/espokids/images/top/sect_2/img_1.png" class="img_tl" alt="">
                         <picture>
-                            <source srcset="/images/top/sect_2/sp/img_2.png" media="(max-width: 899px)">
-                            <img src="/images/top/sect_2/img_2.png" class="img_tr" alt="遠鉄の学童保育" class="">
+                            <source srcset="/espokids/images/top/sect_2/sp/img_2.png" media="(max-width: 899px)">
+                            <img src="/espokids/images/top/sect_2/img_2.png" class="img_tr" alt="遠鉄の学童保育" class="">
                         </picture>
                         <div class="row">
                             <div class="col">
-                                <img src="/images/top/sect_2/img_4.png" class="kid_img" alt="新入生募集中!!" class="">
+                                <img src="/espokids/images/top/sect_2/img_4.png" class="kid_img" alt="新入生募集中!!" class="">
                                 <div class="float_img">
                                     <picture>
-                                        <source srcset="/images/top/sect_2/sp/img_3.png" media="(max-width: 899px)">
-                                        <img src="/images/top/sect_2/img_3.png" alt="新入生募集中!!" class="">
+                                        <source srcset="/espokids/images/top/sect_2/sp/img_3.png" media="(max-width: 899px)">
+                                        <img src="/espokids/images/top/sect_2/img_3.png" alt="新入生募集中!!" class="">
                                     </picture>
                                 </div>
                             </div>
                             <div class="col">
                                 <h3>
-                                    <img src="/images/top/sect_2/txt_img_1.svg" alt="新入生募集中!!">
+                                    <img src="/espokids/images/top/sect_2/txt_img_1.svg" alt="新入生募集中!!">
                                 </h3>
                                 <h4>
                                     職場体験・季節イベント・外出イベントも充実!<br>
                                     エスポキッズは、今までの学童保育に習い事を<br class="sp">ミックスした<br class="pc">
                                     新しいかたちのアフタースクール!
                                 </h4>
-                                <img src="/images/top/sect_2/row_dot.svg" class="p_border" alt="">
+                                <img src="/espokids/images/top/sect_2/row_dot.svg" class="p_border" alt="">
                                 <p>月額(税込) <br class="sp"><span>5,500</span>円(週1回) 〜 <span>22,000</span>円(週5回)</p>
-                                <img src="/images/top/sect_2/row_dot.svg" class="p_border" alt="">
+                                <img src="/espokids/images/top/sect_2/row_dot.svg" class="p_border" alt="">
                                 <div class="tel">
                                     <p class="tel__txt sp">お気軽にご連絡ください!</p>
-                                    <img src="/images/top/sect_2/tel_txt.svg" class="tel__txt pc" alt="お気軽にご連絡ください!">
+                                    <img src="/espokids/images/top/sect_2/tel_txt.svg" class="tel__txt pc" alt="お気軽にご連絡ください!">
                                     <a href="tel:053-462-4414">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="444.41" height="446.4"
                                             viewBox="0 0 444.41 446.4">
@@ -134,14 +134,14 @@
                     <div class="container">
                         <div class="content">
                             <div class="ttl">
-                                <h3><img src="/images/top/sect_3/header_txt.svg" alt="ずっと通いたい!"></h3>
-                                <img class="dot" src="/images/top/sect_3/header_dot.svg" alt="dot">
+                                <h3><img src="/espokids/images/top/sect_3/header_txt.svg" alt="ずっと通いたい!"></h3>
+                                <img class="dot" src="/espokids/images/top/sect_3/header_dot.svg" alt="dot">
                                 <p>エスポキッズにはお子様が自主的に<br class="sp">通いたいと思う魅力がたくさん詰まっています</p>
                             </div>
                             <div class="row">
                                 <div class="col">
                                     <a href="">
-                                        <img class="bg" src="/images/top/sect_3/row_bg_img_1.png" alt="">
+                                        <img class="bg" src="/espokids/images/top/sect_3/row_bg_img_1.png" alt="">
                                         <div class="txt_cont">
                                             <h4>
                                                 <span>安心・安全面を</span><br>
@@ -152,13 +152,13 @@
                                                 到着メールのご連絡など<br>
                                                 安心・安全面を<br class="sp">最重視します
                                             </p>
-                                            <span><img src="/images/top/sect_3/link_icon_1.png" alt=""></span>
+                                            <span><img src="/espokids/images/top/sect_3/link_icon_1.png" alt=""></span>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col">
                                     <a href="">
-                                        <img class="bg" src="/images/top/sect_3/row_bg_img_2.png" alt="">
+                                        <img class="bg" src="/espokids/images/top/sect_3/row_bg_img_2.png" alt="">
                                         <div class="txt_cont">
                                             <h4>
                                                 <span>お家の方の</span><br>
@@ -169,13 +169,13 @@
                                                 柔軟に対応いたします<br>
                                                 お預かり時間も<br class="sp">選択可能です
                                             </p>
-                                            <span><img src="/images/top/sect_3/link_icon_2.png" alt=""></span>
+                                            <span><img src="/espokids/images/top/sect_3/link_icon_2.png" alt=""></span>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col">
                                     <a href="">
-                                        <img class="bg" src="/images/top/sect_3/row_bg_img_3.png" alt="">
+                                        <img class="bg" src="/espokids/images/top/sect_3/row_bg_img_3.png" alt="">
                                         <div class="txt_cont">
                                             <h4>
                                                 <span>習い事選択は</span><br>
@@ -186,7 +186,7 @@
                                                 多彩なカリキュラムから<br>
                                                 運動・知育、両面を<br class="sp">ご提供します
                                             </p>
-                                            <span><img src="/images/top/sect_3/link_icon_3.png" alt=""></span>
+                                            <span><img src="/espokids/images/top/sect_3/link_icon_3.png" alt=""></span>
                                         </div>
                                     </a>
                                 </div>
@@ -200,41 +200,41 @@
                     <div class="content">
                         <div class="row">
                             <div class="col">
-                                <a href="/service/">
+                                <a href="/espokids/service/">
                                     <picture>
-                                        <source srcset="/images/top/sect_4/sp/img_1.jpg" media="(max-width: 899px)">
-                                        <img class="bg" src="/images/top/sect_4/img_1.jpg" class="sub" alt="サービス内容" class="">
+                                        <source srcset="/espokids/images/top/sect_4/sp/img_1.jpg" media="(max-width: 899px)">
+                                        <img class="bg" src="/espokids/images/top/sect_4/img_1.jpg" class="sub" alt="サービス内容" class="">
                                     </picture>
                                     <div class="txt_cont">
-                                        <h3><img src="/images/top/sect_4/ttl_img1.svg" alt="サービス内容"></h3>
+                                        <h3><img src="/espokids/images/top/sect_4/ttl_img1.svg" alt="サービス内容"></h3>
                                         <p>カリキュラム内容や1日の流れなどを紹介</p>
-                                        <span >VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></span>
+                                        <span >VIEW MORE <img src="/espokids/images/top/sect_4/arrow_icon.svg" alt=""></span>
                                     </div>
                                 </a>
                             </div>
                             <div class="col">
-                                <a href="/rates/">
+                                <a href="/espokids/rates/">
                                 <picture>
-                                    <source srcset="/images/top/sect_4/sp/img_2.jpg" media="(max-width: 899px)">
-                                    <img class="bg" src="/images/top/sect_4/img_2.jpg" class="sub" alt="料金" class="">
+                                    <source srcset="/espokids/images/top/sect_4/sp/img_2.jpg" media="(max-width: 899px)">
+                                    <img class="bg" src="/espokids/images/top/sect_4/img_2.jpg" class="sub" alt="料金" class="">
                                 </picture>
                                 <div class="txt_cont">
-                                    <h3><img src="/images/top/sect_4/ttl_img2.svg" alt="料金"></h3>
+                                    <h3><img src="/espokids/images/top/sect_4/ttl_img2.svg" alt="料金"></h3>
                                     <p>ご要望に応じて選択、料金シュミレーションもできます</p>
-                                    <span >VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></span>
+                                    <span >VIEW MORE <img src="/espokids/images/top/sect_4/arrow_icon.svg" alt=""></span>
                                 </div>
                                 </a>
                             </div>
                             <div class="col">
-                                <a href="/access/">
+                                <a href="/espokids/access/">
                                     <picture>
-                                        <source srcset="/images/top/sect_4/sp/img_3.jpg" media="(max-width: 899px)">
-                                        <img class="bg" src="/images/top/sect_4/img_3.jpg" class="sub" alt="施設&アクセス" class="">
+                                        <source srcset="/espokids/images/top/sect_4/sp/img_3.jpg" media="(max-width: 899px)">
+                                        <img class="bg" src="/espokids/images/top/sect_4/img_3.jpg" class="sub" alt="施設&アクセス" class="">
                                     </picture>
                                     <div class="txt_cont">
-                                        <h3><img src="/images/top/sect_4/ttl_img3.svg" alt="施設&アクセス"></h3>
+                                        <h3><img src="/espokids/images/top/sect_4/ttl_img3.svg" alt="施設&アクセス"></h3>
                                         <p>エスポキッズまでのアクセス方法</p>
-                                        <span >VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></span>
+                                        <span >VIEW MORE <img src="/espokids/images/top/sect_4/arrow_icon.svg" alt=""></span>
                                     </div>
                                 </a>
                             </div>
@@ -244,10 +244,10 @@
             </section>
         </main>
         <footer>
-			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/footer_box.php"); ?>
 		</footer>
     </div><!-- //AllBox -->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/footer_tag.php"); ?>
 
     <script>
         const swiper1 = new Swiper('.top_swiper', {

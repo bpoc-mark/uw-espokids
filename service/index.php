@@ -1,9 +1,9 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/config.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/config.php"); ?>
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/tag_manager.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/tag_manager.php"); ?>
     <meta charset="UTF-8" />
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="<?php echo CANONICAL ?>">
@@ -16,16 +16,16 @@
 
     <title><?php echo SITE_NAME ?></title>
 
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/header_tag.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/header_include.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/ga.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/header_tag.php"); ?>
 </head>
 
 <body id="Service">
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/content_tag.php"); ?>
     <div id="AllBox">
         <header>
-            <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/header_box.php"); ?>
         </header>
 
         <main>
@@ -36,7 +36,7 @@
                     <div class="container">
                         <div class="text">
                             <h1>
-                                <img src="/images/service/page_ttl.svg" class="ttl" alt="サービス内容">
+                                <img src="/espokids/images/service/page_ttl.svg" class="ttl" alt="サービス内容">
                             </h1>
                         </div>
                     </div>
@@ -47,15 +47,15 @@
                     <div class="container">
                         <div class="content">
                             <div class="ttl_cont">
-                                <img src="/images/service/sect_2/ttl_img.svg" class="ttl" alt="多彩なカリキュラム （有料サービス・選択制）">
-                                <img src="/images/top/sect_2/header_dot.svg" class="dot" alt="Dot">
+                                <img src="/espokids/images/service/sect_2/ttl_img.svg" class="ttl" alt="多彩なカリキュラム （有料サービス・選択制）">
+                                <img src="/espokids/images/top/sect_2/header_dot.svg" class="dot" alt="Dot">
                                 <p>
                                     エスポだから出来る、習い事は運動・知育の両面をご提供します。<br>
                                     習い事は有料になります。
                                 </p>
-                                <a href="">料金はこちら <img src="/images/service/sect_5/arrow_icon.svg" alt=""></a>
+                                <a href="/espokids/rates/">料金はこちら <img src="/espokids/images/service/sect_5/arrow_icon.svg" alt=""></a>
                             </div>
-                            <img src="/images/service/sect_2/img_1.png" class="img_tl" alt="多彩なカリキュラム （有料サービス・選択制）">
+                            <img src="/espokids/images/service/sect_2/img_1.png" class="img_tl" alt="多彩なカリキュラム （有料サービス・選択制）">
                         </div>
                     </div>
                 </div>
@@ -65,76 +65,76 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <h3 class="ttl"><img src="/images/service/sect_3/ttl_img_1.svg" alt="運動系"></h3>
+                                <h3 class="ttl"><img src="/espokids/images/service/sect_3/ttl_img_1.svg" alt="運動系"></h3>
                                 <div class="info_row">
                                     <div class="content">
                                         <h4>スイミング</h4>
-                                        <img src="/images/service/sect_3/ttl_border.png" class="border" alt="dash"> 
+                                        <img src="/espokids/images/service/sect_3/ttl_border.png" class="border" alt="dash"> 
                                         <p>エスポ ジュニアスクールの代名詞。衛生的で水のきれいなプールで正しい泳法技術習得を目指します。クロール・背泳ぎ・バタフライ・平泳ぎ・個人メドレーの順番に指導いたします。</p>
-                                        <img src="/images/service/sect_3/row_1_img_1.png" class="main_img" alt="スイミング">
+                                        <img src="/espokids/images/service/sect_3/row_1_img_1.png" class="main_img" alt="スイミング">
                                     </div>
                                 </div>
                                 <div class="info_row reverse">
                                     <div class="content">
                                         <h4>ヒップホップダンス </h4>
-                                        <img src="/images/service/sect_3/ttl_border.png" class="border" alt="dash"> 
+                                        <img src="/espokids/images/service/sect_3/ttl_border.png" class="border" alt="dash"> 
                                         <p>幼いうちからのリズム体験で、お子様の未知の能力を発見してみませんか？お子様のリズム感と基礎体力を楽しく学びます。</p>
-                                        <img src="/images/service/sect_3/row_1_img_2.png" class="main_img" alt="ヒップホップダンス ">
+                                        <img src="/espokids/images/service/sect_3/row_1_img_2.png" class="main_img" alt="ヒップホップダンス ">
                                     </div>
                                 </div>
                                 <div class="info_row">
                                     <div class="content">
                                         <h4>スポーツスクール </h4>
-                                        <img src="/images/service/sect_3/ttl_border.png" class="border" alt="dash"> 
+                                        <img src="/espokids/images/service/sect_3/ttl_border.png" class="border" alt="dash"> 
                                         <p>鉄棒・とび箱・なわとび等を使って、運動の基礎を楽しく身に付けます。</p>
-                                        <img src="/images/service/sect_3/row_1_img_3.png" class="main_img" alt="スポーツスクール ">
+                                        <img src="/espokids/images/service/sect_3/row_1_img_3.png" class="main_img" alt="スポーツスクール ">
                                     </div>
                                 </div>
-                                <img src="/images/service/sect_3/float_img_1.png" class="float_br" alt="運動系">
+                                <img src="/espokids/images/service/sect_3/float_img_1.png" class="float_br" alt="運動系">
                             </div>
                             <div class="col">
-                                <h3 class="ttl"><img src="/images/service/sect_3/ttl_img_2.svg" alt="知育系"></h3>
+                                <h3 class="ttl"><img src="/espokids/images/service/sect_3/ttl_img_2.svg" alt="知育系"></h3>
                                 <div class="info_row">
                                     <div class="content">
                                         <h4>プログラミング</h4>
-                                        <img src="/images/service/sect_3/ttl_border-2.png" class="border" alt="dash"> 
+                                        <img src="/espokids/images/service/sect_3/ttl_border-2.png" class="border" alt="dash"> 
                                         <p>創造力と思考力を高めるアクティブ・ラーニング！思い描いたことを形にし、道筋立てて解決するための方法やクリエイティブな発想力が身につきます。</p>
-                                        <img src="/images/service/sect_3/row_1_img_4.png" class="main_img" alt="プログラミング">
+                                        <img src="/espokids/images/service/sect_3/row_1_img_4.png" class="main_img" alt="プログラミング">
                                     </div> 
                                 </div>
                                 <div class="info_row reverse">
                                     <div class="content">
                                         <h4>習字</h4>
-                                        <img src="/images/service/sect_3/ttl_border-2.png" class="border" alt="dash"> 
+                                        <img src="/espokids/images/service/sect_3/ttl_border-2.png" class="border" alt="dash"> 
                                         <p>書道塾舟華で硬筆・毛筆を学びます。字のきまり、書き順を正しく指導します。</p>
-                                        <img src="/images/service/sect_3/row_1_img_5.png" class="main_img" alt="習字">
+                                        <img src="/espokids/images/service/sect_3/row_1_img_5.png" class="main_img" alt="習字">
                                     </div> 
                                 </div>
                                 <div class="info_row">
                                     <div class="content">
                                         <h4>英会話</h4>
-                                        <img src="/images/service/sect_3/ttl_border-2.png" class="border" alt="dash"> 
+                                        <img src="/espokids/images/service/sect_3/ttl_border-2.png" class="border" alt="dash"> 
                                         <p>英語で自己表現ができ、外国人としっかりコミュニケーションがとれるようになります。</p>
-                                        <img src="/images/service/sect_3/row_1_img_6.png" class="main_img" alt="英会話">
+                                        <img src="/espokids/images/service/sect_3/row_1_img_6.png" class="main_img" alt="英会話">
                                     </div> 
                                 </div>
                                 <div class="info_row reverse">
                                     <div class="content">
                                         <h4>フォニックス</h4>
-                                        <img src="/images/service/sect_3/ttl_border-2.png" class="border" alt="dash"> 
+                                        <img src="/espokids/images/service/sect_3/ttl_border-2.png" class="border" alt="dash"> 
                                         <p>読む力を基盤とした文法をしっかり身に着けていきます。</p>
-                                        <img src="/images/service/sect_3/row_1_img_7.png" class="main_img" alt="フォニックス">
+                                        <img src="/espokids/images/service/sect_3/row_1_img_7.png" class="main_img" alt="フォニックス">
                                     </div> 
                                 </div>
                                 <div class="info_row ">
                                     <div class="content">
                                         <h4>作文教室</h4>
-                                        <img src="/images/service/sect_3/ttl_border-2.png" class="border" alt="dash"> 
+                                        <img src="/espokids/images/service/sect_3/ttl_border-2.png" class="border" alt="dash"> 
                                         <p>読解と作文を通して、すべての学習の基礎となる思考力を養う教室です。</p>
-                                        <img src="/images/service/sect_3/row_1_img_8.png" class="main_img" alt="作文教室">
+                                        <img src="/espokids/images/service/sect_3/row_1_img_8.png" class="main_img" alt="作文教室">
                                     </div> 
                                 </div>
-                                <img src="/images/service/sect_3/float_img_2.png" class="float_tr pc" alt="">
+                                <img src="/espokids/images/service/sect_3/float_img_2.png" class="float_tr pc" alt="">
                             </div>
                         </div>
                     </div>
@@ -144,8 +144,8 @@
                 <div class="wrapper">
                     <div class="container">
                         <div class="ttl">
-                            <h3><img src="/images/service/sect_4/ttl_img.svg" alt="1日の流れ"></h3>
-                            <img src="/images/service/sect_4/ttl_border.svg" class="border" alt="">
+                            <h3><img src="/espokids/images/service/sect_4/ttl_img.svg" alt="1日の流れ"></h3>
+                            <img src="/espokids/images/service/sect_4/ttl_border.svg" class="border" alt="">
                         </div>
                         <div class="row">
                             <div class="col">
@@ -288,12 +288,12 @@
                                     <br class="pc">
                                     お迎えサービスお預かりするエスポキッズ施設は、完全オートロックの為安全です。お子様が到着しだい、保護者の携帯に到着メールを送信しますので、安心出来ます。
                                 </p>
-                                <a href="">料金はこちら <img src="/images/service/sect_5/arrow_icon.svg" alt=""></a>
+                                <a href="/espokids/rates/">料金はこちら <img src="/espokids/images/service/sect_5/arrow_icon.svg" alt=""></a>
                             </div>
                             <div class="col">
                                 <picture>
-                                    <source srcset="/images/service/sect_5/sp/img_1.jpg" media="(max-width: 899px)">
-                                    <img src="/images/service/sect_5/img_1.png" class="" alt="お迎えサービス（有料サービス）">
+                                    <source srcset="/espokids/images/service/sect_5/sp/img_1.jpg" media="(max-width: 899px)">
+                                    <img src="/espokids/images/service/sect_5/img_1.png" class="" alt="お迎えサービス（有料サービス）">
                                 </picture>
                             </div>
                         </div>
@@ -318,8 +318,8 @@
                             </div>
                             <div class="col">
                                 <picture>
-                                    <source srcset="/images/service/sect_5/sp/img_2.jpg" media="(max-width: 899px)">
-                                    <img src="/images/service/sect_5/img_2.png" class="" alt="柔軟な利用形態">
+                                    <source srcset="/espokids/images/service/sect_5/sp/img_2.jpg" media="(max-width: 899px)">
+                                    <img src="/espokids/images/service/sect_5/img_2.png" class="" alt="柔軟な利用形態">
                                 </picture>
                             </div>
                         </div>
@@ -329,10 +329,10 @@
         </main>
 
         <footer>
-			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/footer_box.php"); ?>
 		</footer>
     </div><!-- //AllBox -->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/footer_tag.php"); ?>
 </body>
 
 </html>

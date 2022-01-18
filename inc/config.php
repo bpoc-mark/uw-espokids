@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/common.php");
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/common.php");
 
 /*=====================================================
 

@@ -4,8 +4,8 @@ if ((strpos($ua, 'iPhone') !== false) || (strpos($ua, 'iPod') !== false) || (str
 <?php else : ?>
   <meta name="viewport" content="width=1200">
 <?php endif; ?>
-<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/vnd.microsoft.icon" href="/espokids/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/espokids/apple-touch-icon.png">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta property="og:image" content="[サイトのOGP画像]" /><!-- 絶対パス、1MG以下 -->
 <meta property="og:image:alt" content="画像の説明文">
@@ -14,10 +14,10 @@ if ((strpos($ua, 'iPhone') !== false) || (strpos($ua, 'iPod') !== false) || (str
 <meta content="#fff" name="theme-color"><!-- Androidでアドレスバーの色指定 -->
 <meta name="format-detection" content="telephone=no"><!-- Edgeでのリンク定義回避 -->
 
-<link href="/css/layout.css" media="all" rel="stylesheet">
-<link href="/css/style.css" media="print" rel="stylesheet">
-<link href="/css/style.css" media="only screen and (min-width: 900px)" rel="stylesheet">
-<link href="/css/style_sp.css" media="only screen and (max-width: 899px)" rel="stylesheet">
+<link href="/espokids/css/layout.css" media="all" rel="stylesheet">
+<link href="/espokids/css/style.css" media="print" rel="stylesheet">
+<link href="/espokids/css/style.css" media="only screen and (min-width: 900px)" rel="stylesheet">
+<link href="/espokids/css/style_sp.css" media="only screen and (max-width: 899px)" rel="stylesheet">
 <!-- HTML：CDNリンクを貼り付け -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.4.1/dist/css/yakuhanjp-noto.min.css">
 <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>

@@ -1,9 +1,9 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/config.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/config.php"); ?>
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/tag_manager.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/tag_manager.php"); ?>
     <meta charset="UTF-8" />
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="<?php echo CANONICAL ?>">
@@ -16,16 +16,16 @@
 
     <title><?php echo SITE_NAME ?></title>
 
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/header_tag.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/header_include.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/ga.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/header_tag.php"); ?>
 </head>
 
 <body id="Rates">
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/content_tag.php"); ?>
     <div id="AllBox">
         <header>
-            <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/header_box.php"); ?>
         </header>
 
         <main>
@@ -36,7 +36,7 @@
                     <div class="container">
                         <div class="text">
                             <h1>
-                                <img src="/images/rates/sect_1/img_page_title_rates.svg" class="ttl" alt="料金">
+                                <img src="/espokids/images/rates/sect_1/img_page_title_rates.svg" class="ttl" alt="料金">
                             </h1>
                         </div>
                     </div>
@@ -49,18 +49,18 @@
                             <div class="ttl_cont">
                                 <h2>
                                     <picture>
-                                        <source srcset="/images/rates/sect_2/sp/header_text_01.svg" media="(max-width: 899px)">
-                                        <img src="/images/rates/sect_2/header_text_01.svg" class="ttl" alt="料金について">
+                                        <source srcset="/espokids/images/rates/sect_2/sp/header_text_01.svg" media="(max-width: 899px)">
+                                        <img src="/espokids/images/rates/sect_2/header_text_01.svg" class="ttl" alt="料金について">
                                     </picture>
                                 </h2>
-                                <img src="/images/common/header_dot.svg" class="dot" alt="Dot">
+                                <img src="/espokids/images/common/header_dot.svg" class="dot" alt="Dot">
                                 <p class="text">月額5,500円～ご要望に応じて日数、プランをご選択いただけます。</p>
                             </div>
                         </div>
                         <div class="img_ttl">
                             <picture>
-                                <source srcset="/images/rates/sect_2/sp/img_ttl_sp.png" media="(max-width: 899px)">
-                                <img src="/images/rates/sect_2/img_ttl.png" class="ttl" alt="img header">
+                                <source srcset="/espokids/images/rates/sect_2/sp/img_ttl_sp.png" media="(max-width: 899px)">
+                                <img src="/espokids/images/rates/sect_2/img_ttl.png" class="ttl" alt="img header">
                             </picture>
                         </div>
                     </div>
@@ -92,33 +92,33 @@
                                 </ul>
                                 <div class="amount-setting__btnArea">
                                     <a href="#">
-                                        <p> 料金シミュレーションはこちら <img src="/images/common/img_arrow_down.png" class="arrow" alt="Arrow Down"></p>
+                                        <p> 料金シミュレーションはこちら <img src="/espokids/images/common/img_arrow_down.png" class="arrow" alt="Arrow Down"></p>
                                     </a>
                                 </div>
                             </div>
                             <div class="amount-table">
                                 <div class="frame">
                                     <picture>
-                                        <source srcset="/images/rates/sect_3/sp/img_table_01_sp.png" media="(max-width: 899px)">
-                                        <img src="/images/rates/sect_3/img_table_01.png" alt="基本料金">
+                                        <source srcset="/espokids/images/rates/sect_3/sp/img_table_01_sp.png" media="(max-width: 899px)">
+                                        <img src="/espokids/images/rates/sect_3/img_table_01.png" alt="基本料金">
                                     </picture>
                                 </div>
                                 <div class="frame">
                                     <picture>
-                                        <source srcset="/images/rates/sect_3/sp/img_table_02_sp.png" media="(max-width: 899px)">
-                                        <img src="/images/rates/sect_3/img_table_02.png" alt="習い事">
+                                        <source srcset="/espokids/images/rates/sect_3/sp/img_table_02_sp.png" media="(max-width: 899px)">
+                                        <img src="/espokids/images/rates/sect_3/img_table_02.png" alt="習い事">
                                     </picture>
                                 </div>
                                 <div class="frame">
                                     <picture>
-                                        <source srcset="/images/rates/sect_3/sp/img_table_03_sp.png" media="(max-width: 899px)">
-                                        <img src="/images/rates/sect_3/img_table_03.png" alt="お迎え">
+                                        <source srcset="/espokids/images/rates/sect_3/sp/img_table_03_sp.png" media="(max-width: 899px)">
+                                        <img src="/espokids/images/rates/sect_3/img_table_03.png" alt="お迎え">
                                     </picture>
                                 </div>
                             </div>
                             <div class="amount-table__btnArea">
                                 <a href="#">
-                                    <p> 料金シミュレーションはこちら <img src="/images/common/img_arrow_down.png" class="arrow" alt="Arrow Down"></p>
+                                    <p> 料金シミュレーションはこちら <img src="/espokids/images/common/img_arrow_down.png" class="arrow" alt="Arrow Down"></p>
                                 </a>
                                 <p>
                                     ● 初回のみ入会金5,500円、事務手数料5,500円が別途必要になります（レギュラー会員・スポット会員共通）。<br>
@@ -146,14 +146,14 @@
                                     </p>
                                     <div class="table">
                                         <picture>
-                                            <source srcset="/images/rates/sect_4/sp/img_table_01_sp.png" media="(max-width: 899px)">
-                                            <img src="/images/rates/sect_4/img_table_01.png" alt="表">
+                                            <source srcset="/espokids/images/rates/sect_4/sp/img_table_01_sp.png" media="(max-width: 899px)">
+                                            <img src="/espokids/images/rates/sect_4/img_table_01.png" alt="表">
                                         </picture>
                                     </div>
                                     <div class="vector">
                                         <picture>
-                                            <source srcset="/images/rates/sect_4/sp/img_vector_sp.png" media="(max-width: 899px)">
-                                            <img src="/images/rates/sect_4/img_vector.png" alt="vector">
+                                            <source srcset="/espokids/images/rates/sect_4/sp/img_vector_sp.png" media="(max-width: 899px)">
+                                            <img src="/espokids/images/rates/sect_4/img_vector.png" alt="vector">
                                         </picture>
                                     </div>
                                 </div>
@@ -167,8 +167,8 @@
                                     </p>
                                     <div class="table">
                                         <picture>
-                                            <source srcset="/images/rates/sect_4/sp/img_table_02_sp.png" media="(max-width: 899px)">
-                                            <img src="/images/rates/sect_4/img_table_02.png" alt="表">
+                                            <source srcset="/espokids/images/rates/sect_4/sp/img_table_02_sp.png" media="(max-width: 899px)">
+                                            <img src="/espokids/images/rates/sect_4/img_table_02.png" alt="表">
                                         </picture>
                                     </div>
                                 </div>
@@ -176,15 +176,15 @@
                             <div class="options__row">
                                 <div class="options__col">
                                     <picture>
-                                        <source srcset="/images/rates/sect_4/sp/img_table_options_01_sp.png" media="(max-width: 899px)">
-                                        <img src="/images/rates/sect_4/img_table_options_01.png" alt="延長">
+                                        <source srcset="/espokids/images/rates/sect_4/sp/img_table_options_01_sp.png" media="(max-width: 899px)">
+                                        <img src="/espokids/images/rates/sect_4/img_table_options_01.png" alt="延長">
                                     </picture>
                                 </div>
-                                <img src="/images/rates/sect_4/img_broken_line_vertical.png" alt="line divider" class="divider">
+                                <img src="/espokids/images/rates/sect_4/img_broken_line_vertical.png" alt="line divider" class="divider">
                                 <div class="options__col">
                                     <picture>
-                                        <source srcset="/images/rates/sect_4/sp/img_table_options_02_sp.png" media="(max-width: 899px)">
-                                        <img src="/images/rates/sect_4/img_table_options_02.png" alt="食事料金">
+                                        <source srcset="/espokids/images/rates/sect_4/sp/img_table_options_02_sp.png" media="(max-width: 899px)">
+                                        <img src="/espokids/images/rates/sect_4/img_table_options_02.png" alt="食事料金">
                                     </picture>
                                 </div>
                             </div>
@@ -198,15 +198,15 @@
                         <div class="content">
                             <div class="ttl_cont">
                                 <picture>
-                                    <source srcset="/images/rates/sect_5/header_text_01.svg" media="(max-width: 899px)">
-                                    <img src="/images/rates/sect_5/header_text_01.svg" class="ttl" alt="割引制度">
+                                    <source srcset="/espokids/images/rates/sect_5/header_text_01.svg" media="(max-width: 899px)">
+                                    <img src="/espokids/images/rates/sect_5/header_text_01.svg" class="ttl" alt="割引制度">
                                 </picture>
-                                <img src="/images/common/header_dot.svg" class="dot" alt="Dot">
+                                <img src="/espokids/images/common/header_dot.svg" class="dot" alt="Dot">
                             </div>
                             <div class="discount">
                                 <picture>
-                                    <source srcset="/images/rates/sect_5/sp/img_discount_sp.png" media="(max-width: 899px)">
-                                    <img src="/images/rates/sect_5/img_discount.png" class="ttl" alt="割引">
+                                    <source srcset="/espokids/images/rates/sect_5/sp/img_discount_sp.png" media="(max-width: 899px)">
+                                    <img src="/espokids/images/rates/sect_5/img_discount.png" class="ttl" alt="割引">
                                 </picture>
                             </div>
                         </div>
@@ -217,8 +217,8 @@
                 <div class="wrapper">
                     <div class="container">
                         <div class="ttl_cont">
-                            <img src="/images/rates/sect_6/header_text_01.svg" class="ttl" alt="料金シミュレーション （レギュラー会員）">
-                            <img src="/images/common/header_dot.svg" class="dot" alt="Dot">
+                            <img src="/espokids/images/rates/sect_6/header_text_01.svg" class="ttl" alt="料金シミュレーション （レギュラー会員）">
+                            <img src="/espokids/images/common/header_dot.svg" class="dot" alt="Dot">
                             <p class="text">下記を入力して、「計算する」ボタンを押してください。概算の月会費が表示されます。</p>
                         </div>
                         <div class="content" id="calculate">
@@ -371,10 +371,10 @@
             </section>
         </main>
         <footer>
-            <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/footer_box.php"); ?>
         </footer>
     </div><!-- //AllBox -->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/footer_tag.php"); ?>
     <script type="text/javascript">
         $(document).ready(function() {
             function toNumber(str) {

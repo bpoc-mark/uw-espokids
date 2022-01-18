@@ -100,7 +100,7 @@ header .header_inner {
 header .header_inner .logo {
   width: 300px;
   height: 43px;
-  background-image: url(/images/common/logo_primary.svg);
+  background-image: url(/espokids/images/common/logo_primary.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -787,7 +787,7 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 .footer_inner .footer_1 {
-  background: url(/images/common/footer_bg.jpg) center center/cover no-repeat;
+  background: url(/espokids/images/common/footer_bg.jpg) center center/cover no-repeat;
 }
 
 .footer_inner .footer_1 .container {
@@ -948,22 +948,22 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 .c-mainVisual--rates .wrapper .bg {
-  background: url(/images/rates/sect_1/bg_mv.png) center center/cover no-repeat;
+  background: url(/espokids/images/rates/sect_1/bg_mv.png) center center/cover no-repeat;
 }
 
 @media (max-width: 899px) {
   .c-mainVisual--rates .wrapper .bg {
-    background: url(/images/rates/sect_1/sp/bg_mv_sp.png) center center/cover no-repeat;
+    background: url(/espokids/images/rates/sect_1/sp/bg_mv_sp.png) center center/cover no-repeat;
   }
 }
 
 .c-mainVisual--access .wrapper .bg {
-  background: url(/images/access/sect_1/bg_mv.png) center center/cover no-repeat;
+  background: url(/espokids/images/access/sect_1/bg_mv.png) center center/cover no-repeat;
 }
 
 @media (max-width: 899px) {
   .c-mainVisual--access .wrapper .bg {
-    background: url(/images/access/sect_1/bg_mv-sp.jpg) center center/cover no-repeat;
+    background: url(/espokids/images/access/sect_1/bg_mv-sp.jpg) center center/cover no-repeat;
   }
 }
 
@@ -978,12 +978,12 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 .c-mainVisual--services .wrapper .bg {
-  background: url(/images/service/page_bg_img.jpg) center center/cover no-repeat;
+  background: url(/espokids/images/service/page_bg_img.jpg) center center/cover no-repeat;
 }
 
 @media (max-width: 899px) {
   .c-mainVisual--services .wrapper .bg {
-    background: url(/images/service/page_bg_img-sp.jpg) center center/cover no-repeat;
+    background: url(/espokids/images/service/page_bg_img-sp.jpg) center center/cover no-repeat;
   }
 }
 
@@ -1305,7 +1305,7 @@ img[src$=".png"], img[src$=".jpg"] {
 #Top main .sect_2 .wrapper .container .row .col:first-child .kid_img {
   width: 60%;
   border-radius: 20px;
-  background-image: url(/images/top/sect_2/img_4.png);
+  background-image: url(/espokids/images/top/sect_2/img_4.png);
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
@@ -1407,7 +1407,7 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_3 .wrapper {
-  background-image: url(/images/top/sect_3/bg_img.png);
+  background-image: url(/espokids/images/top/sect_3/bg_img.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2225,7 +2225,7 @@ main#Contact .form_wrap > p {
 #Access main .sect_2 .wrapper .container .row .col:first-child .kid_img {
   width: 60%;
   border-radius: 20px;
-  background-image: url(/images/top/sect_2/img_4.png);
+  background-image: url(/espokids/images/top/sect_2/img_4.png);
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
@@ -2710,7 +2710,7 @@ body {
 }
 
 #Rates main .sect_6 {
-  background: url(/images/rates/sect_6/bg_calculate.png) center center/cover no-repeat;
+  background: url(/espokids/images/rates/sect_6/bg_calculate.png) center center/cover no-repeat;
   padding: 80px 0;
 }
 
@@ -3092,7 +3092,7 @@ body {
 }
 
 #Service main .sect_4 .wrapper {
-  background-image: url(/images/service/sect_4/bg_img.jpg);
+  background-image: url(/espokids/images/service/sect_4/bg_img.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;

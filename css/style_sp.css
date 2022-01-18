@@ -76,7 +76,7 @@ header.isActive {
 }
 
 header.isActive .header_inner .logo {
-  background-image: url(/images/common/logo_secondary.svg);
+  background-image: url(/espokids/images/common/logo_secondary.svg);
 }
 
 header.isActive .header_inner .menu {
@@ -94,7 +94,7 @@ header .header_inner {
 header .header_inner .logo {
   width: 185px;
   height: 26.5px;
-  background-image: url(/images/common/logo_primary.svg);
+  background-image: url(/espokids/images/common/logo_primary.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -257,7 +257,7 @@ header .header_inner .nav__item:nth-child(10) .nav__link::before, header .header
   display: block;
   width: 5px;
   height: 5px;
-  background-image: url(/images/common/link_icon.png);
+  background-image: url(/espokids/images/common/link_icon.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -298,7 +298,7 @@ header .header_inner .nav__link svg {
 
 header .header_inner .menu {
   position: relative;
-  background-image: url(/images/common/menu_sp_bg.png);
+  background-image: url(/espokids/images/common/menu_sp_bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -923,7 +923,7 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 .footer_inner .footer_1 {
-  background: url(/images/common/footer_bg.jpg) center center/cover no-repeat;
+  background: url(/espokids/images/common/footer_bg.jpg) center center/cover no-repeat;
 }
 
 .footer_inner .footer_1 .container {
@@ -1084,22 +1084,22 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 .c-mainVisual--rates .wrapper .bg {
-  background: url(/images/rates/sect_1/bg_mv.png) center center/cover no-repeat;
+  background: url(/espokids/images/rates/sect_1/bg_mv.png) center center/cover no-repeat;
 }
 
 @media (max-width: 899px) {
   .c-mainVisual--rates .wrapper .bg {
-    background: url(/images/rates/sect_1/sp/bg_mv_sp.png) center center/cover no-repeat;
+    background: url(/espokids/images/rates/sect_1/sp/bg_mv_sp.png) center center/cover no-repeat;
   }
 }
 
 .c-mainVisual--access .wrapper .bg {
-  background: url(/images/access/sect_1/bg_mv.png) center center/cover no-repeat;
+  background: url(/espokids/images/access/sect_1/bg_mv.png) center center/cover no-repeat;
 }
 
 @media (max-width: 899px) {
   .c-mainVisual--access .wrapper .bg {
-    background: url(/images/access/sect_1/bg_mv-sp.jpg) center center/cover no-repeat;
+    background: url(/espokids/images/access/sect_1/bg_mv-sp.jpg) center center/cover no-repeat;
   }
 }
 
@@ -1114,12 +1114,12 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 .c-mainVisual--services .wrapper .bg {
-  background: url(/images/service/page_bg_img.jpg) center center/cover no-repeat;
+  background: url(/espokids/images/service/page_bg_img.jpg) center center/cover no-repeat;
 }
 
 @media (max-width: 899px) {
   .c-mainVisual--services .wrapper .bg {
-    background: url(/images/service/page_bg_img-sp.jpg) center center/cover no-repeat;
+    background: url(/espokids/images/service/page_bg_img-sp.jpg) center center/cover no-repeat;
   }
 }
 
@@ -1531,7 +1531,7 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_3 .wrapper {
-  background-image: url(/images/top/sect_3/sp/bg_img.jpg);
+  background-image: url(/espokids/images/top/sect_3/sp/bg_img.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1800,7 +1800,7 @@ img[src$=".png"], img[src$=".jpg"] {
 #Access main .sect_2 .wrapper .container .row .col:first-child .kid_img {
   width: 60%;
   border-radius: 20px;
-  background-image: url(/images/top/sect_2/img_4.png);
+  background-image: url(/espokids/images/top/sect_2/img_4.png);
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
@@ -2312,7 +2312,7 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Rates main .sect_6 {
-  background: url(/images/rates/sect_6/bg_calculate.png) center center/cover no-repeat;
+  background: url(/espokids/images/rates/sect_6/bg_calculate.png) center center/cover no-repeat;
   padding: 39px 0 100px;
 }
 
@@ -2777,7 +2777,7 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Service main .sect_4 .wrapper {
-  background-image: url(/images/service/sect_4/sp/bg_img.jpg);
+  background-image: url(/espokids/images/service/sect_4/sp/bg_img.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;

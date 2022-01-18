@@ -1,9 +1,9 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/config.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/config.php"); ?>
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/tag_manager.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/tag_manager.php"); ?>
     <meta charset="UTF-8" />
     <meta name="robots" content="index,follow" />
     <link rel="canonical" href="<?php echo CANONICAL ?>" />
@@ -17,16 +17,16 @@
 
     <title><?php echo SITE_NAME ?></title>
 
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/header_tag.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/header_include.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/ga.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/header_tag.php"); ?>
 </head>
 
 <body id="Access">
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/content_tag.php"); ?>
     <div id="AllBox">
         <header>
-            <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/header_box.php"); ?>
         </header>
 
         <main>
@@ -37,7 +37,7 @@
                     <div class="container">
                         <div class="text">
                             <h1>
-                                <img src="/images/access/sect_1/img_page_title_access.svg" class="ttl" alt="アクセス">
+                                <img src="/espokids/images/access/sect_1/img_page_title_access.svg" class="ttl" alt="アクセス">
                             </h1>
                         </div>
                     </div>
@@ -50,38 +50,38 @@
                             <div class="ttl_cont">
                                 <h2>
                                     <picture>
-                                        <source srcset="/images/access/sect_2/sp/header_txt_2.svg"
+                                        <source srcset="/espokids/images/access/sect_2/sp/header_txt_2.svg"
                                             media="(max-width: 899px)">
-                                        <img src="/images/access/sect_2/header_txt_2.svg" class="sub" alt="遠鉄の学童保育"
+                                        <img src="/espokids/images/access/sect_2/header_txt_2.svg" class="sub" alt="遠鉄の学童保育"
                                             class="">
                                     </picture>
                                 </h2>
-                                <img src="/images/top/sect_2/header_dot.svg" class="dot" alt="Dot">
+                                <img src="/espokids/images/top/sect_2/header_dot.svg" class="dot" alt="Dot">
                             </div>
                             <p class="desc">
                                 新しい友達と出会い。新しい自分と出会い。全てがここから始まります。<br>
                                 こどもたちが、安全に安心して楽しく学べる環境が、揃っています。
                             </p>
                         </div>
-                        <img src="/images/access/sect_2/img_1.png" class="img_tl" alt="kid_img">
+                        <img src="/espokids/images/access/sect_2/img_1.png" class="img_tl" alt="kid_img">
                         <picture>
-                            <source srcset="/images/top/sect_2/sp/img_2.png" media="(max-width: 899px)">
-                            <!-- <img src="/images/top/sect_2/img_2.png" class="img_tr" alt="遠鉄の学童保育" class=""> -->
+                            <source srcset="/espokids/images/top/sect_2/sp/img_2.png" media="(max-width: 899px)">
+                            <!-- <img src="/espokids/images/top/sect_2/img_2.png" class="img_tr" alt="遠鉄の学童保育" class=""> -->
                         </picture>
                         <div class="row">
                             <div class="col">
-                                <img src="/images/access/sect_2/img_4.png" class="map" alt="新入生募集中!!" class="">
+                                <img src="/espokids/images/access/sect_2/img_4.png" class="map" alt="新入生募集中!!" class="">
                                 <!-- <div class="float_img">
                                     <picture>
-                                        <source srcset="/images/top/sect_2/sp/img_3.png" media="(max-width: 899px)">
-                                        <img src="/images/top/sect_2/img_3.png" alt="新入生募集中!!" class="">
+                                        <source srcset="/espokids/images/top/sect_2/sp/img_3.png" media="(max-width: 899px)">
+                                        <img src="/espokids/images/top/sect_2/img_3.png" alt="新入生募集中!!" class="">
                                     </picture>
                                 </div> -->
                             </div>
                             <div class="col">
                                 <div class="col-content">
                                     <h3>
-                                        <img src="/images/access/sect_2/txt_img_1.svg" class="slogan" alt="新入生募集中!!">
+                                        <img src="/espokids/images/access/sect_2/txt_img_1.svg" class="slogan" alt="新入生募集中!!">
                                     </h3>
                                     <p class="col-sub">運営：遠鉄スポーツクラブ・エスポ</p>
                                     <h4>
@@ -101,11 +101,11 @@
         </main>
 
         <footer>
-            <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/footer_box.php"); ?>
         </footer>
     </div>
     <!-- //AllBox -->
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/espokids/inc/tag/footer_tag.php"); ?>
 </body>
 
 </html>
