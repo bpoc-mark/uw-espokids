@@ -19,13 +19,13 @@ $str = explode('/', $url); ?>
 			<li class="nav__item"><a href="/" class="nav__link" <?php if ($str[1] == "") {
 															echo ' class="here"';
 														} ?>>サービス内容</a></li>
-			<li class="nav__item"><a href="/" class="nav__link" <?php if ($str[1] == "") {
+			<li class="nav__item"><a href="/rates/" class="nav__link" <?php if ($str[1] == "") {
 															echo ' class="here"';
 														} ?>>料金<span class="sp">について</span></a></li>
-			<li class="nav__item"><a href="/" class="nav__link" <?php if ($str[1] == "") {
+			<li class="nav__item"><a href="/access/" class="nav__link" <?php if ($str[1] == "") {
 															echo ' class="here"';
 														} ?>><span class="sp">施設&</span>アクセス</a></li>
-			<li class="nav__item sp"><a href="/" class="nav__link" <?php if ($str[1] == "") {
+			<li class="nav__item sp"><a href="/rates/#price-simulation" class="nav__link" <?php if ($str[1] == "") {
 															echo ' class="here"';
 														} ?>>料金シュミレーション</a></li>
 			<li class="nav__item"><a href="tel:053-462-4414" class="nav__link" <?php if ($str[1] == "") {

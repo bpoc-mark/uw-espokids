@@ -23,20 +23,38 @@ $(function () {
 
   }
 
-  $('#nav_menu').click(function(){
+  $('#nav_menu').click(function () {
     $('#nav_menu span').toggleClass('show');
     $('header').toggleClass('isActive');
+    if ($('header').hasClass('isActive')) {
+      $(('header.isActive nav.nav')).css({
+        "opacity": "1",
+        "visibility": "visible"
+      });
+    } else {
+      $(('header nav.nav')).css({
+        "opacity": "0",
+        "visibility": "hidden"
+      });
+    }
   });
+
+  $('#btnBackTop').click(function () {
+    $("html, body").animate({
+      scrollTop: 0
+    }, 1500);
+  });
+  
 });
 
 
 
 // シンプルローディング
 const spinner = document.querySelector('#loading');
-window.addEventListener('load', function() {
+window.addEventListener('load', function () {
   spinner.classList.add('loaded');
 });
-setTimeout( function () {
+setTimeout(function () {
   spinner.classList.add('loaded');
 }, 2000);
 

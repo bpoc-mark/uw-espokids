@@ -32,7 +32,14 @@
         <main>
             <section class="c-mainVisual c-mainVisual--access">
                 <div class="wrapper">
-                    <div class="content">
+                    <div class="bg">
+                    </div>
+                    <div class="container">
+                        <div class="text">
+                            <h1>
+                                <img src="/images/access/sect_1/img_page_title_access.svg" class="ttl" alt="料金">
+                            </h1>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -41,10 +48,14 @@
                     <div class="container">
                         <div class="content">
                             <div class="ttl_cont">
-                                <picture>
-                                    <source srcset="/images/access/sect_2/sp/header_txt_2.svg" media="(max-width: 899px)">
-                                    <img src="/images/access/sect_2/header_txt_2.svg" class="sub" alt="遠鉄の学童保育" class="">
-                                </picture>
+                                <h2>
+                                    <picture>
+                                        <source srcset="/images/access/sect_2/sp/header_txt_2.svg"
+                                            media="(max-width: 899px)">
+                                        <img src="/images/access/sect_2/header_txt_2.svg" class="sub" alt="遠鉄の学童保育"
+                                            class="">
+                                    </picture>
+                                </h2>
                                 <img src="/images/top/sect_2/header_dot.svg" class="dot" alt="Dot">
                             </div>
                             <p class="desc">
@@ -89,9 +100,9 @@
             </section>
         </main>
 
-        <!-- <footer>
-			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
-		</footer> -->
+        <footer>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
+        </footer>
     </div>
     <!-- //AllBox -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>

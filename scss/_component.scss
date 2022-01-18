@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import '_mixins.scss';
+@import "_mixins.scss";
 
 /*==================================
   Component
@@ -15,8 +15,8 @@ img {
   max-width: 100%;
   height: auto;
 
-  &[src$='.png'],
-  &[src$='.jpg'] {
+  &[src$=".png"],
+  &[src$=".jpg"] {
     backface-visibility: hidden;
   }
 }
@@ -175,7 +175,7 @@ img {
       font-weight: 500;
       box-sizing: border-box;
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         bottom: 0;
@@ -230,7 +230,7 @@ img {
           padding-left: 24px;
           position: relative;
           &::before {
-            content: '';
+            content: "";
             position: absolute;
             top: 0;
             left: 0;
@@ -279,6 +279,127 @@ img {
       &.current_page {
         background-color: #000;
         color: #fff;
+      }
+    }
+  }
+}
+
+.footer_inner {
+  .footer_1 {
+    background-color: #ea4078;
+    .container {
+      position: relative;
+      .img_1 {
+        width: 213px;
+        height: auto;
+        position: absolute;
+        top: 22px;
+        left: 0;
+        @include sp {
+          display: none;
+        }
+      }
+      .img_2 {
+        width: 175px;
+        height: auto;
+        position: absolute;
+        top: 22px;
+        right: 50px;
+        @include sp {
+          width: 127px;
+          top: -65px;
+          right: -15px;
+        }
+      }
+      .img_3 {
+        width: 142px;
+        height: auto;
+        position: absolute;
+        top: 190px;
+        right: 0;
+        @include sp {
+          width: 102px;
+          top: -35px;
+          right: 120px;
+        }
+      }
+    }
+    &__ttl {
+      width: 232px;
+      height: auto;
+      margin: 0 auto;
+      padding: 50px 0 20px 0;
+      @include sp {
+        width: 170px;
+        padding: 60px 0 20px 0;
+      }
+    }
+    &__desc {
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      color: #fff;
+      text-align: center;
+      padding: 0 0 40px 0;
+      @include sp {
+        text-align: left;
+        letter-spacing: 0.03em;
+      }
+    }
+    &__contact-dtls {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      padding: 0 0 50px 0;
+      flex-wrap: wrap;
+      .col {
+        &:first-child {
+          align-items: center;
+          display: flex;
+          justify-content: space-between;
+          @include sp {
+            width: 100%;
+            justify-content: center;
+          }
+          img {
+            width: 27px;
+            height: auto;
+            margin-right: 18px;
+            @include sp {
+              margin-right: 10px;
+            }
+          }
+          p {
+            color: #fff714;
+            font-size: 38px;
+            font-weight: 400;
+            line-height: 1;
+          }
+        }
+        &:last-child {
+          align-items: center;
+          background: #fff;
+          border-radius: 10px;
+          display: flex;
+          justify-content: space-between;
+          padding: 20px;
+          width: 287px;
+          margin-left: 30px;
+          @include sp {
+            margin-left: 0;
+            margin-top: 20px;
+          }
+          p {
+            font-size: 16px;
+            font-weight: 500;
+            text-align: center;
+            width: 100%;
+          }
+          img {
+            width: 20px;
+            height: auto;
+          }
+        }
       }
     }
   }
@@ -383,7 +504,7 @@ img {
       #{$checkbox}__check {
         background: #fff;
         &:after {
-          content: '';
+          content: "";
           background: url(../images/common/img_checkbox_arrow.svg) center center /
             100% no-repeat;
           width: 12px;
@@ -395,7 +516,7 @@ img {
   &__check {
     display: flex;
     justify-content: center;
-    content: '';
+    content: "";
     width: 20px;
     height: 20px;
     background: #fff;

@@ -201,7 +201,7 @@
                                 <div class="txt_cont">
                                     <h3><img src="/images/top/sect_4/ttl_img1.svg" alt="サービス内容"></h3>
                                     <p>カリキュラム内容や1日の流れなどを紹介</p>
-                                    <a href="">VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></a>
+                                    <a href="/">VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></a>
                                 </div>
                             </div>
                             <div class="col">
@@ -212,7 +212,7 @@
                                 <div class="txt_cont">
                                     <h3><img src="/images/top/sect_4/ttl_img2.svg" alt="料金"></h3>
                                     <p>ご要望に応じて選択、料金シュミレーションもできます</p>
-                                    <a href="">VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></a>
+                                    <a href="/rates/">VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></a>
                                 </div>
                             </div>
                             <div class="col">
@@ -223,7 +223,7 @@
                                 <div class="txt_cont">
                                     <h3><img src="/images/top/sect_4/ttl_img3.svg" alt="施設&アクセス"></h3>
                                     <p>エスポキッズまでのアクセス方法</p>
-                                    <a href="">VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></a>
+                                    <a href="/access/">VIEW MORE <img src="/images/top/sect_4/arrow_icon.svg" alt=""></a>
                                 </div>
                             </div>
                         </div>
