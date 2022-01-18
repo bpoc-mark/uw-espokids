@@ -285,23 +285,67 @@ img {
 }
 .c-mainVisual {
   &--rates {
-    .wrapper .content {
+    .wrapper .bg {
       background: url(/images/rates/sect_1/bg_mv.png) center center / cover
         no-repeat;
+      @include sp {
+        background: url(/images/rates/sect_1/sp/bg_mv_sp.png) center center /
+          cover no-repeat;
+      }
     }
   }
   &--access {
-    .wrapper .content {
+    .wrapper .bg {
       background: url(/images/access/sect_1/bg_mv.png) center center / cover
         no-repeat;
     }
   }
+  &--services {
+    .wrapper .bg {
+      background: url(/images/service/page_bg_img.jpg) center center / cover
+        no-repeat;
+        @include sp {
+          background: url(/images/service/page_bg_img-sp.jpg) center center /
+            cover no-repeat;
+        }
+    }
+    .wrapper{
+      .container{
+        .text{
+          width: 335px !important;
+          @include sp{
+            width: 168.5px !important;
+          }
+        }
+      }
+    }
+  }
   .wrapper {
     width: 100%;
-    height: 670px;
-    .content {
+    height: 530px;
+    position: relative;
+    @include sp {
+      height: (510px/2);
+    }
+    .bg {
       width: 100%;
       height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .container {
+      z-index: 1;
+      position: relative;
+      height: 100%;
+      align-items: center;
+      display: flex;
+      .text {
+        width: 117px;
+        @include sp {
+          width: (117px/2);
+        }
+      }
     }
   }
 }
