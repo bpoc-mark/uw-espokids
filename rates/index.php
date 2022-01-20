@@ -49,7 +49,7 @@
                             <div class="ttl_cont">
                                 <h2>
                                     <picture>
-                                        <source srcset="/espokids/images/rates/sect_2/sp/header_text_01.svg" media="(max-width: 899px)">
+                                        <source srcset="/espokids/images/rates/sect_2/header_text_01.svg" media="(max-width: 899px)">
                                         <img src="/espokids/images/rates/sect_2/header_text_01.svg" class="ttl" alt="料金について">
                                     </picture>
                                 </h2>
@@ -69,62 +69,314 @@
             <section class="sect_3">
                 <div class="wrapper">
                     <div class="container border">
-                        <div class="ttl">
-                            <p>レギュラー会員 <br class="u-d-o-sp"><span>（毎週固定曜日の定期的なお預かり）</span></p>
-                        </div>
-                        <div class="content">
-                            <div class="amount-setting">
-                                <p class="amount-setting__ttl">
-                                    レギュラー会員（毎週固定曜日の定期的なお預かり）の月会費は、<br> 基本会費+習い事+小学校へのお迎えの合計金額で決まります。
-                                </p>
-                                <ul class="amount-setting__row">
-                                    <li class="yellow">
-                                        <p>基本会費<br class="u-d-o-pc">お預かり代+おやつ代）</p>
-                                    </li>
-                                    <span class="u-d-o-pc">+</span>
-                                    <li class="orange">
-                                        <p>習い事 <br class="u-d-o-pc">（選択サービス）</p>
-                                    </li>
-                                    <span class="u-d-o-pc">+</span>
-                                    <li class="green">
-                                        <p>小学校へのお迎え<br class="u-d-o-pc">（選択サービス）</p>
-                                    </li>
-                                </ul>
-                                <div class="amount-setting__btnArea">
+                        <div class="border">
+                            <div class="ttl">
+                                <p>レギュラー会員 <br class="u-d-o-sp"><span>（毎週固定曜日の定期的なお預かり）</span></p>
+                            </div>
+                            <div class="content">
+                                <div class="amount-setting">
+                                    <p class="amount-setting__ttl">
+                                        レギュラー会員（毎週固定曜日の定期的なお預かり）の月会費は、<br> 基本会費+習い事+小学校へのお迎えの合計金額で決まります。
+                                    </p>
+                                    <ul class="amount-setting__row">
+                                        <li class="yellow">
+                                            <p>基本会費<br class="u-d-o-pc"><span>（お預かり代+おやつ代）</span></p>
+                                        </li>
+                                        <span class="u-d-o-pc">+</span>
+                                        <li class="orange">
+                                            <p>習い事 <br class="u-d-o-pc"><span>（選択サービス）</span></p>
+                                        </li>
+                                        <span class="u-d-o-pc">+</span>
+                                        <li class="green">
+                                            <p>小学校へのお迎え<br class="u-d-o-pc"><span>（選択サービス）</span></p>
+                                        </li>
+                                    </ul>
+                                    <div class="amount-setting__btnArea">
+                                        <a href="#">
+                                            <p> 料金シミュレーションはこちら <img src="/espokids/images/common/img_arrow_down.png" class="arrow" alt="Arrow Down"></p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="amount-table">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h3 class="col--ttl col--ttl__clr1">基本会費（お預かり＋おやつ代）</h3>
+                                            <table class="table-1">
+                                                <thead>
+                                                    <tr>
+                                                        <th>期間</th>
+                                                        <th>通常期（月〜金）</th>
+                                                        <th colspan="2">夏休み（8月）</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="bdr_btm">
+                                                        <td>週1回</td>
+                                                        <td>5,500円</td>
+                                                        <td>9,900円</td>
+                                                        <td rowspan="7" class="rowspan7">長期夏休みパック利用</td>
+                                                    </tr>
+                                                    <tr class="bdr_btm">
+                                                        <td>週2回</td>
+                                                        <td>10,450円</td>
+                                                        <td>18,810円</td>
+                                                    </tr>
+                                                    <tr class="bdr_btm">
+                                                        <td>週3回</td>
+                                                        <td>14,850円</td>
+                                                        <td>26,730円</td>
+                                                    </tr>
+                                                    <tr class="bdr_btm">
+                                                        <td>週4回</td>
+                                                        <td>18,700円</td>
+                                                        <td>33,660円</td>
+                                                    </tr>
+                                                    <tr class="bdr_btm">
+                                                        <td>週5回</td>
+                                                        <td>22,000円</td>
+                                                        <td>39,600円</td>
+                                                    </tr>
+                                                    <tr class="bdr_btm">
+                                                        <td>時間スポット（30分）</td>
+                                                        <td>550円</td>
+                                                        <td class="no-bdr_btm">ー</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>延長（前延長）</td>
+                                                        <td>550円</td>
+                                                        <td>ー</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p class="desc txt_right">消費税（10％）込の金額表示です。</p>
+                                        </div>
+                                        <div class="col">
+                                            <h3 class="col--ttl col--ttl__clr2">習い事会費（選択サービス）</h3>
+                                            <table class="table-2">
+                                                <thead>
+                                                    <tr>
+                                                        <th></th>
+                                                        <th>習い事</th>
+                                                        <th>1ヶ月料金</th>
+                                                        <th>実施日</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td rowspan="3" class="rowspan">運動系</td>
+                                                        <td class="bg-clr">スイミング</td>
+                                                        <td class="center_price">3,575円</td>
+                                                        <td class="bdr-l">月・火・水・木・金</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="bg-clr">スポーツスクール</td>
+                                                        <td class="center_price">3,025円</td>
+                                                        <td class="bdr-l">月・木</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="bg-clr">ヒップホップ</td>
+                                                        <td class="center_price">2,640円</td>
+                                                        <td class="bdr-l">水</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td rowspan="6" class="rowspan">知育系</td>
+                                                        <td class="bg-clr">プログラミング</td>
+                                                        <td class="center_price">9,075円</td>
+                                                        <td class="bdr-l">木</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="bg-clr">作文教室</td>
+                                                        <td class="center_price">9,075円</td>
+                                                        <td class="bdr-l">月</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="bg-clr">英会話</td>
+                                                        <td class="center_price">9,350円</td>
+                                                        <td class="bdr-l">水・金</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="bg-clr">フォニックス</td>
+                                                        <td class="center_price">9,350円</td>
+                                                        <td class="bdr-l">水・金</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="bg-clr">英会話・フォニックス</td>
+                                                        <td class="center_price">14,850円</td>
+                                                        <td class="bdr-l">水・金</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="bg-clr br-br5">習字</td>
+                                                        <td class="center_price">3,900円</td>
+                                                        <td class="bdr-l">火・木</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p class="desc">消費税（10％）込の金額表示です。</p>
+                                            <ul class="d-list">
+                                                <li>
+                                                    <p>※木曜日の習字のみエスポ外での習い事となります。<br>会場までの送迎はエスポスタッフが行います。</p>
+                                                </li>
+                                                <li>
+                                                    <p>※習い事は各教室の運営基準により受講していただきます。</p>
+                                                </li>
+                                                <li>
+                                                    <p>※受講時に必要な道具や教科書代等は別途必要になります。</p>
+                                                </li>
+                                                <li>
+                                                    <p>※その他ご不明な点は、ご相談下さい。</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col">
+                                            <h3 class="col--ttl col--ttl__clr3">小学校へのお迎え代（選択サービス）</h3>
+                                            <table class="table-3">
+                                                <thead>
+                                                    <tr>
+                                                        <th>学校</th>
+                                                        <th>1回あたり</th>
+                                                        <th colspan="2">お迎えの手段</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="bdr_btm">
+                                                        <td>曳馬小</td>
+                                                        <td>220円</td>
+                                                        <td>エスポキッズスタッフが<br>徒歩にてお迎え</td>
+                                                        <td rowspan="2" class="rowspan">サービス提供期間<br>4月〜6月</td>
+                                                    </tr>
+                                                    <tr class="bdr_btm">
+                                                        <td>上島小</td>
+                                                        <td>440円</td>
+                                                        <td>エスポキッズスタッフが<br>電車にてお迎え</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <div class="sub pc">
+                                                <h4>タクシー補助制度について</h4>
+                                                <p class="desc">
+                                                    補助額は1日あたり最大500円まで。<br>
+                                                    週4日以上のお預かりの場合に限ります。<br>
+                                                    ※お預かり日数は基本会費に基づきます。
+                                                </p>
+                                            </div>
+                                            <div class="sub pc">
+                                                <h4>その他</h4>
+                                                <ul class="d-list">
+                                                    <li>
+                                                        <p>
+                                                            ※料金は1ヶ月の実利用回数の実費をいただきます。同じ場所から複数の会員がご乗　車になる場合は、乗車人数でお迎え代金を按分します。<br>
+                                                            （例：同じ場所から2名乗車の場合は、お一人あたりは半額となります。）
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <h3 class="col--ttl col--ttl__clr4">以下の小学校は遠鉄タクシーがお迎え</h3>
+                                            <table class="table-4">
+                                                <thead>
+                                                    <tr>
+                                                        <th>学校</th>
+                                                        <th>タクシー料金<br><span>（1回あたりの概算）</span></th>
+                                                        <th>補助金<br><span>（週4回以上のみ）</span></th>
+                                                        <th>タクシー料金<br><span>（補助額<br class="sp">適用後概算）</span></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>船越小</td>
+                                                        <td>900円</td>
+                                                        <td>400円</td>
+                                                        <td>500円</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>佐藤小</td>
+                                                        <td>1,100円</td>
+                                                        <td rowspan="7" class="rowspan">500円</td>
+                                                        <td>600円</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>東小</td>
+                                                        <td>1,100円</td>
+                                                        <td>600円</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>城北小</td>
+                                                        <td>1,200円</td>
+                                                        <td>700円</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>中部学園</td>
+                                                        <td>1,300円</td>
+                                                        <td>800円</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>蒲小</td>
+                                                        <td>1,400円</td>
+                                                        <td>900円</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>泉小</td>
+                                                        <td>1,400円</td>
+                                                        <td>900円</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>追分小</td>
+                                                        <td>1,400円</td>
+                                                        <td>900円</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <div class="sub sp">
+                                                <h4>タクシー補助制度について</h4>
+                                                <p class="desc">
+                                                    補助額は1日あたり最大500円まで。<br>
+                                                    週4日以上のお預かりの場合に限ります。<br>
+                                                    ※お預かり日数は基本会費に基づきます。
+                                                </p>
+                                            </div>
+                                            <div class="sub sp">
+                                                <h4>その他</h4>
+                                                <ul class="d-list">
+                                                    <li>
+                                                        <p>
+                                                            ※料金は1ヶ月の実利用回数の実費をいただきます。同じ場所から複数の会員がご乗　車になる場合は、乗車人数でお迎え代金を按分します。<br>
+                                                            （例：同じ場所から2名乗車の場合は、お一人あたりは半額となります。）
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="p-list">
+                                        <li>
+                                            <p>※記載以外の小学校についても、ご要望があればお迎えのご相談に応じます。</p>
+                                        </li>
+                                        <li>
+                                            <p>※お迎えのご要望が発生した時点で、各小学校とお迎えの可否、待ち合わせ場所等の詳細を打合せいたします。小学校の許可がでない場合は、お迎えサービスができない場合もござ　いますのでご了承ください。</p>
+                                        </li>
+                                    </ul>
+                                    <div class="desc_c">
+                                        <h5>
+                                            <span>【電車でご来館の方】</span><br>
+                                            遠鉄電車ご利用のお客様は、弊社で全額補助（該当回数分の乗車券を進呈します）いたします。（弊社スタッフの付き添いはありません）
+                                        </h5>
+                                        <h5>
+                                            <span>【通学定期券をお持ちの場合】</span><br>
+                                            定期券区間のうち、小学校最寄の駅またはバス停から助信駅までの定期券購入相当額の30％をエスポに通う日数分に応じて支給いたします。<br>（詳しくはお問合せください。）
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="amount-table__btnArea">
                                     <a href="#">
                                         <p> 料金シミュレーションはこちら <img src="/espokids/images/common/img_arrow_down.png" class="arrow" alt="Arrow Down"></p>
                                     </a>
+                                    <p>
+                                        ● 初回のみ入会金5,500円、事務手数料5,500円が別途必要になります（レギュラー会員・スポット会員共通）。<br>
+                                        ● 基本預かり時間は放課後13:00～19:00とします。<br>
+                                        ● 春・夏・冬休み・祝日は朝8:30からお預かりします。
+                                    </p>
                                 </div>
-                            </div>
-                            <div class="amount-table">
-                                <div class="frame">
-                                    <picture>
-                                        <source srcset="/espokids/images/rates/sect_3/sp/img_table_01_sp.png" media="(max-width: 899px)">
-                                        <img src="/espokids/images/rates/sect_3/img_table_01.png" alt="基本料金">
-                                    </picture>
-                                </div>
-                                <div class="frame">
-                                    <picture>
-                                        <source srcset="/espokids/images/rates/sect_3/sp/img_table_02_sp.png" media="(max-width: 899px)">
-                                        <img src="/espokids/images/rates/sect_3/img_table_02.png" alt="習い事">
-                                    </picture>
-                                </div>
-                                <div class="frame">
-                                    <picture>
-                                        <source srcset="/espokids/images/rates/sect_3/sp/img_table_03_sp.png" media="(max-width: 899px)">
-                                        <img src="/espokids/images/rates/sect_3/img_table_03.png" alt="お迎え">
-                                    </picture>
-                                </div>
-                            </div>
-                            <div class="amount-table__btnArea">
-                                <a href="#">
-                                    <p> 料金シミュレーションはこちら <img src="/espokids/images/common/img_arrow_down.png" class="arrow" alt="Arrow Down"></p>
-                                </a>
-                                <p>
-                                    ● 初回のみ入会金5,500円、事務手数料5,500円が別途必要になります（レギュラー会員・スポット会員共通）。<br>
-                                    ● 基本預かり時間は放課後13:00～19:00とします。<br>
-                                    ● 春・夏・冬休み・祝日は朝8:30からお預かりします。
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -132,7 +384,7 @@
             </section>
             <section class="sect_4">
                 <div class="wrapper">
-                    <div class="container">
+                    <div class="container package_cont">
                         <div class="content">
                             <div class="package__row">
                                 <div class="package__col">
@@ -144,12 +396,14 @@
                                         入会金：5,500円　事務手数料：5,500円<br>
                                         <small>※現在、スポット会員新規受付を休止しております。</small>
                                     </p>
-                                    <div class="table">
-                                        <picture>
-                                            <source srcset="/espokids/images/rates/sect_4/sp/img_table_01_sp.png" media="(max-width: 899px)">
-                                            <img src="/espokids/images/rates/sect_4/img_table_01.png" alt="表">
-                                        </picture>
-                                    </div>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th>時間スポット<br><span>（1回1時間以上から利用可能）</span></th>
+                                                <td>550円 / 30分</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                     <div class="vector">
                                         <picture>
                                             <source srcset="/espokids/images/rates/sect_4/sp/img_vector_sp.png" media="(max-width: 899px)">
@@ -165,27 +419,63 @@
                                         8時30分～19時まで<br>
                                         ● 習い事、お迎え代は別途有料<br class="u-d-o-sp">(オプション選択)。</br>
                                     </p>
-                                    <div class="table">
-                                        <picture>
-                                            <source srcset="/espokids/images/rates/sect_4/sp/img_table_02_sp.png" media="(max-width: 899px)">
-                                            <img src="/espokids/images/rates/sect_4/img_table_02.png" alt="表">
-                                        </picture>
-                                    </div>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th>半日</th>
+                                                <td>3,080円</td>
+                                            </tr>
+                                            <tr>
+                                                <th>1日</th>
+                                                <td>3,850円</td>
+                                            </tr>
+                                            <tr>
+                                                <th>3日</th>
+                                                <td>11,080円</td>
+                                            </tr>
+                                            <tr>
+                                                <th>5日</th>
+                                                <td>17,710円</td>
+                                            </tr>
+                                            <tr>
+                                                <th>10日</th>
+                                                <td>31,570円</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="container options_cont">
+                        <div class="content">
                             <div class="options__row">
                                 <div class="options__col">
-                                    <picture>
-                                        <source srcset="/espokids/images/rates/sect_4/sp/img_table_options_01_sp.png" media="(max-width: 899px)">
-                                        <img src="/espokids/images/rates/sect_4/img_table_options_01.png" alt="延長">
-                                    </picture>
+                                    <h3>延長（前延長）料金</h3>
+                                    <p>5分を経過した場合、30分の延長料金を<br class="sp">頂きます。</p>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th>延長（前延長）</th>
+                                                <td>550円 / 30分</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
-                                <img src="/espokids/images/rates/sect_4/img_broken_line_vertical.png" alt="line divider" class="divider">
                                 <div class="options__col">
-                                    <picture>
-                                        <source srcset="/espokids/images/rates/sect_4/sp/img_table_options_02_sp.png" media="(max-width: 899px)">
-                                        <img src="/espokids/images/rates/sect_4/img_table_options_02.png" alt="食事料金">
-                                    </picture>
+                                    <h3>食事料金（オプション）</h3>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th>昼食：前日19時までに予約</th>
+                                                <td>650円／1食</td>
+                                            </tr>
+                                            <tr>
+                                                <th>夕食：当日16時までに予約</th>
+                                                <td>800円／1食</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -204,10 +494,23 @@
                                 <img src="/espokids/images/common/header_dot.svg" class="dot" alt="Dot">
                             </div>
                             <div class="discount">
-                                <picture>
-                                    <source srcset="/espokids/images/rates/sect_5/sp/img_discount_sp.png" media="(max-width: 899px)">
-                                    <img src="/espokids/images/rates/sect_5/img_discount.png" class="ttl" alt="割引">
-                                </picture>
+                                <div class="discount__row">
+                                    <div class="discount__row--col">
+                                        <h3>
+                                            2人目以降の<br class="pc">
+                                            <span>事務手数料無料。</span>
+                                        </h3>
+                                        <p>レギュラー会員・スポット会員ともにOK</p>
+                                    </div>
+                                    <div class="discount__row--col">
+                                        <h3>
+                                            兄弟・姉妹が同時に在籍する場合、<br class="pc">
+                                            金額の小さい方の<br class="pc">
+                                            <span>月会費20％割引。</span>
+                                        </h3>
+                                        <p>レギュラー会員のみ</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
