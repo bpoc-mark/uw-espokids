@@ -139,11 +139,26 @@ header {
             transform: rotate(90deg);
           }
         }
+        &:not(:last-child){
+          .nav__link{
+            transition: .3s ease-in-out;
+            &:hover{
+              color: #e93c71;
+            }
+          }
+        }
         &:nth-child(6) {
           background-color: #e93c71;
           width: 230px;
           height: 60px;
           margin: 0 0 0 20px;
+          transition: .3s ease-in-out;
+          &:hover{
+            opacity: .7;
+            .nav__link{
+              color: #fff;
+            }
+          }
           .nav__link {
             color: #fff;
             width: 100%;
@@ -206,6 +221,12 @@ header {
       li {
         font-size: 15px;
         font-weight: 500;
+        a{
+          transition: .3s ease-in-out;
+          &:hover{
+            color: #e93c71;
+          }
+        }
       }
     }
   }
@@ -219,16 +240,30 @@ header {
       }
       &:last-child {
         width: 31%;
+        .big_icon{
+          transition: .3s ease-in-out;
+          &:hover{
+            opacity: .7;
+          }
+        }
         .col-icons {
           display: flex;
           justify-content: flex-end;
           .icon-1 {
             width: 128px;
             height: auto;
+            transition: .3s ease-in-out;
+            &:hover{
+              opacity: .7;
+            }
           }
           .icon-2 {
             width: 128px;
             height: auto;
+            transition: .3s ease-in-out;
+            &:hover{
+              opacity: .7;
+            }
           }
         }
       }
@@ -280,13 +315,6 @@ header {
       }
     }
   }
-  .back-to-top {
-    width: 72px;
-    height: auto;
-    position: absolute;
-    bottom: 35px;
-    right: 25px;
-  }
 }
 .copy {
   background-color: #f3f3f3;
@@ -314,6 +342,10 @@ header {
               font-weight: 500;
               line-height: 1;
               color: #535353;
+              transition: .3s ease-in-out;
+              &:hover{
+                color: #e93c71;
+              }
             }
           }
         }
@@ -337,19 +369,28 @@ header {
 #pageTop {
   opacity: 0;
   position: fixed;
-  right: 0;
-  bottom: 0;
+  right: 25px;
+  bottom: 35px;
   z-index: 888;
   transition: 0.3s;
   width: 72px;
+  height: 62px;
   &.active {
     opacity: 1;
   }
-  a {
-    display: block;
-    width: 50px;
-    &:hover {
-      opacity: 0.7;
+  &:hover {
+    opacity: 0.7;
+    .back-to-top-arrow{
+      top: 10px;
     }
+  }
+  .back-to-top-arrow{
+    width: 11px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .3s ease-in-out;
   }
 }

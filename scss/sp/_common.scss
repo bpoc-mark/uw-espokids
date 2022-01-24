@@ -418,13 +418,13 @@ header {
       }
     }
   }
-  .back-to-top {
-    width: 50px;
-    height: auto;
-    position: absolute;
-    bottom: -30px;
-    right: 25px;
-  }
+  // .back-to-top {
+  //   width: 50px;
+  //   height: auto;
+  //   position: absolute;
+  //   bottom: -30px;
+  //   right: 25px;
+  // }
 }
 .copy {
   background-color: #f3f3f3;
@@ -470,16 +470,21 @@ header {
 #pageTop {
   opacity: 0;
   position: fixed;
-  right: 0;
-  bottom: 45px;
+  bottom: 40px;
+  right: 20px;
   z-index: 888;
   transition: 0.3s;
   width: 54px;
   &.active {
     opacity: 1;
   }
-  a {
-    display: block;
-    width: 50px;
+  .back-to-top-arrow{
+    width: 8.5px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: .3s ease-in-out;
   }
 }
