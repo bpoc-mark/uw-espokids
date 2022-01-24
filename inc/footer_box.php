@@ -14,7 +14,7 @@
                     <p><a href="tel:053-462-4414">053-462-4414</a></p>
                 </div>
                 <div class="col">
-                    <a href="https://www.esc-espo.jp/contact/?id=1" target="_blank" style="width: 100%; display: flex;">
+                    <a href="https://www.esc-espo.jp/contact/?id=1" target="_blank" >
                         <p>資料請求はこちらから</p>
                         <img src="/espokids/images/common/arrow_right.svg" alt="arrow right">
                     </a>
@@ -87,9 +87,9 @@
             <div class="row">
                 <div class="col">
                     <ul>
-                        <li><img src="/espokids/images/common/arrow_gray.png" alt=""><a href="/espokids/">利用規約</a></li>
-                        <li><img src="/espokids/images/common/arrow_gray.png" alt=""><a href="/espokids/">資料請求</a></li>
-                        <li><img src="/espokids/images/common/arrow_gray.png" alt=""><a href="/espokids/">お問合せ</a></li>
+                        <li><img src="/images/common/arrow_gray.png" alt=""><a href="https://www.esc-espo.jp/espokids/kiyaku.pdf" target="_blank">利用規約</a></li>
+                        <li><img src="/images/common/arrow_gray.png" alt=""><a href="https://www.esc-espo.jp/contact/?id=1" target="_blank">資料請求</a></li>
+                        <li><img src="/images/common/arrow_gray.png" alt=""><a href="https://www.esc-espo.jp/contact/?id=1" target="_blank">お問合せ</a></li>
                     </ul>
                 </div>
                 <div class="col">

@@ -312,7 +312,7 @@
                                         <p>●就労証明書といった面倒な申請は必要ありません。</p>
                                     </li>
                                     <li>
-                                        <p>●サービスの詳細については<a href="" class="term_link">こちら</a>の利用規約をご覧下さい。</p>
+                                        <p>●サービスの詳細については<a href="https://www.esc-espo.jp/espokids/kiyaku.pdf" target="_blank" class="term_link">こちら</a>の利用規約をご覧下さい。</p>
                                     </li>
                                 </ul>
                             </div>
