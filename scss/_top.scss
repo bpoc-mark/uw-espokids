@@ -240,6 +240,26 @@
                   }
                 }
               }
+              &:hover{
+                .bg{
+                  transform: rotate(45deg);
+                }
+                .txt_cont{
+                  .arrow-cont{
+                    &::before{
+                      left: 50%;
+                      opacity: 1;
+                    }
+                    .arrow_img{
+                      left: 100%;
+                      opacity: 0;
+                    }
+                  }
+                }
+              }
+              .bg{
+                transition: .3s ease-in-out;
+              }
               .txt_cont{
                 width: 100%;
                 position: absolute;
@@ -267,11 +287,33 @@
                   text-align: center;
                   margin: 17px 0 0;
                 }
-                span{
+                .arrow-cont{
+                  position: relative;
                   margin: 30px 0 0;
                   display: inline-block;
-                  img{
+                  &::before{
+                    content: "";
+                    display: block;
+                    width: 14px;
+                    height: 11px;
+                    background: url(/espokids/images/top/sect_3/arrow_icon.svg) center center / cover no-repeat;
+                    position: absolute;
+                    top: 55%;
+                    left: 0%;
+                    transform: translate(-50%, -50%);
+                    opacity: 0;
+                    transition: .3s ease-in-out;
+                  }
+                  .bg_arrow_img{
                     width: 36px;
+                  }
+                  .arrow_img{
+                    width: 14px;
+                    position: absolute;
+                    top: 55%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    transition: .3s ease-in-out;
                   }
                 }
               }
@@ -287,6 +329,20 @@
         .row{
           .col{
             width: calc(100% / 3);
+            overflow: hidden;
+            &:hover{
+              .bg{
+                transform: scale(1.05);
+              }
+              .txt_cont{
+                span{
+                  opacity: .7;
+                }
+              }
+            }
+            .bg{
+              transition: .3s ease-in-out;
+            }
             .txt_cont{
               width: 100%;
               position: absolute;
@@ -314,6 +370,7 @@
                 font-size: 12px;
                 letter-spacing: .05em;
                 color: #ef7000;
+                transition: .3s ease-in-out;
                 img{
                   width: 9px;
                   position: absolute;

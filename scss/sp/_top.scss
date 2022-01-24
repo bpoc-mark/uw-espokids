@@ -276,10 +276,19 @@
                   margin: 11px 0 0;
                 }
                 span{
+                  position: relative;
                   margin: 5px 0 0;
                   display: inline-block;
-                  img{
+                  .bg_arrow_img{
                     width: 31.5px;
+                  }
+                  .arrow_img{
+                    width: 12.5px;
+                    position: absolute;
+                    top: 55%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    transition: .3s ease-in-out;
                   }
                 }
               }

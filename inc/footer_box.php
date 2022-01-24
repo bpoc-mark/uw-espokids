@@ -53,7 +53,7 @@
                         053-462-4415</p>
                 </div>
                 <div class="col">
-                    <a href="https://cards.entetsu.co.jp/kidsclub/" target="_blank">
+                    <a href="https://cards.entetsu.co.jp/kidsclub/" target="_blank" class="big_icon">
                         <img src="/espokids/images/common/footer_img_4.png" alt="footer_img_4">
                     </a>
                 </div>
@@ -78,7 +78,8 @@
             </div>
         </div>
         <a href="#" id="pageTop">
-            <img class="back-to-top" src="/espokids/images/common/back-to-top.svg" alt="back to top">
+            <img src="/espokids/images/common/back-to-top-arrow.svg" class="back-to-top-arrow" alt="">
+            <img class="back-to-top" src="/espokids/images/common/back-to-top.png" alt="back to top">
         </a>
     </div>
     <div class="copy">

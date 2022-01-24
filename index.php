@@ -152,7 +152,7 @@
                                                 到着メールのご連絡など<br>
                                                 安心・安全面を<br class="sp">最重視します
                                             </p>
-                                            <span><img src="/espokids/images/top/sect_3/link_icon_1.png" alt=""></span>
+                                            <span class="arrow-cont"><img src="/espokids/images/top/sect_3/link_icon_1.png" class="bg_arrow_img" alt=""><img src="/espokids/images/top/sect_3/arrow_icon.svg" class="arrow_img" alt=""></span>
                                         </div>
                                     </a>
                                 </div>
@@ -169,7 +169,7 @@
                                                 柔軟に対応いたします<br>
                                                 お預かり時間も<br class="sp">選択可能です
                                             </p>
-                                            <span><img src="/espokids/images/top/sect_3/link_icon_2.png" alt=""></span>
+                                            <span class="arrow-cont"><img src="/espokids/images/top/sect_3/link_icon_2.png" class="bg_arrow_img" alt=""><img src="/espokids/images/top/sect_3/arrow_icon.svg" class="arrow_img" alt=""></span>
                                         </div>
                                     </a>
                                 </div>
@@ -186,7 +186,7 @@
                                                 多彩なカリキュラムから<br>
                                                 運動・知育、両面を<br class="sp">ご提供します
                                             </p>
-                                            <span><img src="/espokids/images/top/sect_3/link_icon_3.png" alt=""></span>
+                                            <span class="arrow-cont"><img src="/espokids/images/top/sect_3/link_icon_3.png" class="bg_arrow_img" alt=""><img src="/espokids/images/top/sect_3/arrow_icon.svg" class="arrow_img" alt=""></span>
                                         </div>
                                     </a>
                                 </div>
