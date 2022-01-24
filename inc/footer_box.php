@@ -87,9 +87,9 @@
             <div class="row">
                 <div class="col">
                     <ul>
-                        <li><img src="/images/common/arrow_gray.png" alt=""><a href="https://www.esc-espo.jp/espokids/kiyaku.pdf" target="_blank">利用規約</a></li>
-                        <li><img src="/images/common/arrow_gray.png" alt=""><a href="https://www.esc-espo.jp/contact/?id=1" target="_blank">資料請求</a></li>
-                        <li><img src="/images/common/arrow_gray.png" alt=""><a href="https://www.esc-espo.jp/contact/?id=1" target="_blank">お問合せ</a></li>
+                        <li><img src="/espokids/images/common/arrow_gray.png" alt=""><a href="https://www.esc-espo.jp/espokids/kiyaku.pdf" target="_blank">利用規約</a></li>
+                        <li><img src="/espokids/images/common/arrow_gray.png" alt=""><a href="https://www.esc-espo.jp/contact/?id=1" target="_blank">資料請求</a></li>
+                        <li><img src="/espokids/images/common/arrow_gray.png" alt=""><a href="https://www.esc-espo.jp/contact/?id=1" target="_blank">お問合せ</a></li>
                     </ul>
                 </div>
                 <div class="col">
