@@ -92,7 +92,7 @@
                                         </li>
                                     </ul>
                                     <div class="amount-setting__btnArea">
-                                        <a href="#">
+                                        <a href="/rates/#price-simulation">
                                             <p> 料金シミュレーションはこちら <img src="/images/common/img_arrow_down.png" class="arrow" alt="Arrow Down"></p>
                                         </a>
                                     </div>
@@ -368,7 +368,7 @@
                                     </div>
                                 </div>
                                 <div class="amount-table__btnArea">
-                                    <a href="#">
+                                    <a href="/rates/#price-simulation">
                                         <p> 料金シミュレーションはこちら <img src="/images/common/img_arrow_down.png" class="arrow" alt="Arrow Down"></p>
                                     </a>
                                     <p>

@@ -53,7 +53,7 @@
                                     エスポだから出来る、習い事は運動・知育の両面をご提供します。<br>
                                     習い事は有料になります。
                                 </p>
-                                <a href=""><p>料金はこちら</p> <img src="/images/service/sect_5/arrow_icon.svg" alt=""></a>
+                                <a href="/rates/"><p>料金はこちら</p> <img src="/images/service/sect_5/arrow_icon.svg" alt=""></a>
                             </div>
                             <img src="/images/service/sect_2/img_1.png" class="img_tl" alt="多彩なカリキュラム （有料サービス・選択制）">
                         </div>
@@ -288,7 +288,7 @@
                                     <br class="pc">
                                     お迎えサービスお預かりするエスポキッズ施設は、完全オートロックの為安全です。お子様が到着しだい、保護者の携帯に到着メールを送信しますので、安心出来ます。
                                 </p>
-                                <a class="price_link" href=""><p>料金はこちら</p> <img src="/images/service/sect_5/arrow_icon.svg" alt=""></a>
+                                <a class="price_link" href="/rates/"><p>料金はこちら</p> <img src="/images/service/sect_5/arrow_icon.svg" alt=""></a>
                             </div>
                             <div class="col">
                                 <picture>
@@ -312,7 +312,7 @@
                                         <p>●就労証明書といった面倒な申請は必要ありません。</p>
                                     </li>
                                     <li>
-                                        <p>●サービスの詳細については<a href="" class="term_link">こちら</a>の利用規約をご覧下さい。</p>
+                                        <p>●サービスの詳細については<a href="https://www.esc-espo.jp/espokids/kiyaku.pdf" target="_blank" class="term_link">こちら</a>の利用規約をご覧下さい。</p>
                                     </li>
                                 </ul>
                             </div>
