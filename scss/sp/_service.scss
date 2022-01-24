@@ -59,9 +59,11 @@
               margin: 22px auto 0;
               border-radius: 50px;
               background-color: #e4336d;
-              letter-spacing: .05em;
-              font-weight: 500;
-              color: #fff;
+              p{
+                letter-spacing: .05em;
+                font-weight: 500;
+                color: #fff;
+              }
               img{
                 width: 14px;
                 position: absolute;
@@ -433,14 +435,14 @@
                   p{
                     text-indent: -15px;
                     margin: 0 0 0 15px !important;
-                    span{
+                    .term_link{
                       text-decoration: underline;
                       text-underline-offset: 5px;
                     }
                   }
                 }
               }
-              a{
+              .price_link{
                 position: relative;
                 display: flex;
                 align-items: center;
@@ -450,9 +452,11 @@
                 margin: 0 auto;
                 border-radius: 50px;
                 background-color: #e4336d;
-                letter-spacing: .05em;
-                font-weight: 500;
-                color: #fff;
+                p{
+                  letter-spacing: .05em;
+                  font-weight: 500;
+                  color: #fff;
+                }
                 img{
                   width: 14px;
                   position: absolute;
