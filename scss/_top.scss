@@ -11,21 +11,9 @@
       .content{
         width: 100%;
         height: 100%;
-        .swiper{
-          height: 100%;
-          .swiper-wrapper{
-            height: 100%;
-            .swiper-slide{
-              @for $i from 1 through 13 {
-                &.slide-img-#{$i}{
-                  background-image: url(../images/top/sect_1/img_#{$i}.jpg);
-                  background-size: cover;
-                  background-position: center center;
-                }
-              }
-            }
-          }
-        }
+        background-image: url(../images/top/sect_1/img_1.jpg);
+        background-size: cover;
+        background-position: center center;
       }
     }
   }

@@ -32,26 +32,6 @@
             <section class="sect_1">
                 <div class="wrapper">
                     <div class="content">
-                        <!-- Slider main container -->
-                        <div class="swiper top_swiper">
-                            <!-- Additional required wrapper -->
-                            <div class="swiper-wrapper">
-                                <!-- Slides -->
-                                <div class="swiper-slide slide-img-1"></div>
-                                <div class="swiper-slide slide-img-2"></div>
-                                <div class="swiper-slide slide-img-3"></div>
-                                <div class="swiper-slide slide-img-4"></div>
-                                <div class="swiper-slide slide-img-5"></div>
-                                <div class="swiper-slide slide-img-6"></div>
-                                <div class="swiper-slide slide-img-7"></div>
-                                <div class="swiper-slide slide-img-8"></div>
-                                <div class="swiper-slide slide-img-9"></div>
-                                <div class="swiper-slide slide-img-10"></div>
-                                <div class="swiper-slide slide-img-11"></div>
-                                <div class="swiper-slide slide-img-12"></div>
-                                <div class="swiper-slide slide-img-13"></div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
@@ -248,23 +228,6 @@
 		</footer>
     </div><!-- //AllBox -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
-
-    <script>
-        const swiper1 = new Swiper('.top_swiper', {
-			// Optional parameters
-			direction: 'horizontal',
-			allowTouchMove: false,
-			loop: true,
-			speed: 3000,
-			autoplay: {
-				delay: 3000,
-			},
-			effect: 'fade',
-			fadeEffect: {
-				crossFade: true
-			}
-		});
-    </script>
 </body>
 
 </html>
