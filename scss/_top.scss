@@ -320,7 +320,7 @@
             overflow: hidden;
             &:hover{
               .bg{
-                transform: scale(1.05);
+                transform: scale3D(1.05,1.05,1);
               }
               .txt_cont{
                 span{
@@ -330,6 +330,7 @@
             }
             .bg{
               transition: .3s ease-in-out;
+              transform: scale3D(1.005,1.005,1);
             }
             .txt_cont{
               width: 100%;

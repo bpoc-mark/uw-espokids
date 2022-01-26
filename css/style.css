@@ -1738,8 +1738,8 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_4 .wrapper .content .row .col:hover .bg {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  -webkit-transform: scale3D(1.05, 1.05, 1);
+          transform: scale3D(1.05, 1.05, 1);
 }
 
 #Top main .sect_4 .wrapper .content .row .col:hover .txt_cont span {
@@ -1749,6 +1749,8 @@ img[src$=".png"], img[src$=".jpg"] {
 #Top main .sect_4 .wrapper .content .row .col .bg {
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
+  -webkit-transform: scale3D(1.005, 1.005, 1);
+          transform: scale3D(1.005, 1.005, 1);
 }
 
 #Top main .sect_4 .wrapper .content .row .col .txt_cont {
