@@ -94,6 +94,7 @@ body {
           &__ttl {
             text-align: center;
             margin-bottom: 30px;
+            font-weight: 600;
           }
           &__row {
             display: flex;
@@ -223,6 +224,7 @@ body {
                 letter-spacing: .05em;
                 line-height: 22px;
                 margin: 0 0 15px;
+                font-weight: 600;
                 &__clr1{
                   color: #f37800;
                 }
@@ -249,7 +251,7 @@ body {
                       letter-spacing: .05em;
                       color: #fff;
                       padding: 10px 0 12px;
-                      font-weight: 400;
+                      font-weight: 500;
                       &:nth-child(1){
                         border-bottom: 1px solid #ffd288;
                         width: 31.13%;
@@ -282,12 +284,13 @@ body {
                       line-height: 24px;
                       text-align: right;
                       padding: 5px 0 9px;
-                      font-weight: 400;
+                      font-weight: 600;
                       &:nth-child(1){
                         background-color: #f39800;
                         width: 31.13%;
                         color: #fff;
                         text-align: center;
+                        font-weight: 500;
                       }
                       &:nth-child(2){
                         border-right: 1px solid #ffd288;
@@ -334,7 +337,7 @@ body {
                       letter-spacing: .05em;
                       color: #fff;
                       padding: 10px 0 12px;
-                      font-weight: 400;
+                      font-weight: 500;
                       &:nth-child(1){
                         width: 6.8%;
                         border-right: 1px solid #ffbdaa;
@@ -364,7 +367,7 @@ body {
                       line-height: 24px;
                       text-align: center;
                       padding: 5px 0 9px;
-                      font-weight: 400;
+                      font-weight: 600;
                       &:nth-child(1){
                       }
                       &:nth-child(2){
@@ -379,6 +382,7 @@ body {
                       &.bg-clr{
                         background-color: #ec6138;
                         color: #fff;
+                        font-weight: 500;
                       }
                       &.br-br5{
                         border-bottom-right-radius: 5px;
@@ -398,6 +402,7 @@ body {
                         background-color: #ec6138;
                         color: #fff;
                         border-right: 1px solid #ffbdaa;
+                        font-weight: 500;
                       }
                     }
                   }
@@ -416,7 +421,7 @@ body {
                       letter-spacing: .05em;
                       color: #fff;
                       padding: 10px 0 12px;
-                      font-weight: 400;
+                      font-weight: 500;
                       &:nth-child(1){
                         width: 13.21%;
                         border-bottom: 1px solid #7ee1b3;
@@ -442,13 +447,14 @@ body {
                       line-height: 24px;
                       text-align: right;
                       padding: 5px 0 9px;
-                      font-weight: 400;
+                      font-weight: 600;
                       &:nth-child(1){
                         width: 13.21%;
                         background-color: #17ae67;
                         color: #fff;
                         text-align: center;
                         vertical-align: middle;
+                        font-weight: 500;
                       }
                       &:nth-child(2){
                         width: 18.87%;
@@ -492,7 +498,7 @@ body {
                       letter-spacing: .05em;
                       color: #fff;
                       padding: 7px 0 6px;
-                      font-weight: 400;
+                      font-weight: 500;
                       vertical-align: middle;
                       span{
                         font-size: 12px;
@@ -535,13 +541,14 @@ body {
                       line-height: 24px;
                       text-align: right;
                       padding: 5px 0 9px;
-                      font-weight: 400;
+                      font-weight: 600;
                       vertical-align: middle;
                       text-align: center;
                       &:nth-child(1){
                         background-color: #17ae67;
                         text-align: center;
                         color: #fff;
+                        font-weight: 500;
                       }
                       &:nth-child(2){
                         text-align: right;
@@ -563,7 +570,7 @@ body {
                 color: #565656;
                 letter-spacing: .05em;
                 line-height: 24px;
-                font-weight: 400;
+                font-weight: 500;
                 margin: 14px 0 0;
                 &.txt_right{
                   text-align: right;
@@ -577,7 +584,7 @@ body {
                     color: #565656;
                     letter-spacing: .05em;
                     line-height: 24px;
-                    font-weight: 400;
+                    font-weight: 500;
                     text-indent: -15px;
                     margin: 0 0 0 15px;
                   }
@@ -587,6 +594,7 @@ body {
                 margin: 20px 0 0;
                 h4{
                   font-size: 18px;
+                  font-weight: 600;
                   letter-spacing: .03em;
                 }
                 .desc{
@@ -619,7 +627,7 @@ body {
               line-height: 20.8px;
               letter-spacing: .03em;
               span{
-                font-weight: 500;
+                font-weight: 600;
                 padding: 0 0 0 10px;
               }
               &:not(:last-child){
@@ -766,7 +774,7 @@ body {
               margin-top: 55px;
               font-weight: 900;
               small {
-                font-weight: 300;
+                font-weight: 500;
                 font-size: 14px;
                 color: #565656;
               }
@@ -796,6 +804,7 @@ body {
                     display: flex;
                     align-items: center;
                     padding: 0 30px;
+                    font-weight: 600;
                     @include is-max(1000px){
                       padding: 0 15px;
                     }
@@ -895,6 +904,7 @@ body {
                     width: 178px;
                     padding: 16px 30px 15px;
                     border-radius: 5px;
+                    font-weight: 500;
                   }
                   td{
                     letter-spacing: .05em;
@@ -906,6 +916,7 @@ body {
                     padding: 16px 30px 15px;
                     border-top-right-radius: 5px;
                     border-bottom-right-radius: 5px;
+                    font-weight: 600;
                   }
                 }
               }
@@ -1117,10 +1128,15 @@ body {
         margin-top: 40px;
         .label {
           margin-right: 60px;
+          font-weight: 600;
         }
         .total {
+          #totalEditable{
+            font-weight: 600
+          }
           small {
             @include Noto_Sans;
+            font-weight: 600;
             font-size: 14px;
           }
         }

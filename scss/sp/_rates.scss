@@ -245,7 +245,7 @@
                       letter-spacing: .05em;
                       color: #fff;
                       padding: 10px 0 12px;
-                      font-weight: 400;
+                      font-weight: 500;
                       font-size: 12px;
                       &:nth-child(1){
                         border-bottom: 1px solid #ffd288;
@@ -279,13 +279,14 @@
                       line-height: 24px;
                       text-align: right;
                       padding: 5px 0 9px;
-                      font-weight: 400;
+                      font-weight: 500;
                       font-size: 12px;
                       &:nth-child(1){
                         background-color: #f39800;
                         width: 31.13%;
                         color: #fff;
                         text-align: center;
+                        font-weight: 500;
                       }
                       &:nth-child(2){
                         border-right: 1px solid #ffd288;
@@ -326,7 +327,7 @@
                       letter-spacing: .05em;
                       color: #fff;
                       padding: 10px 0 12px;
-                      font-weight: 400;
+                      font-weight: 500;
                       font-size: 12px;
                       &:nth-child(1){
                         width: 6.8%;
@@ -357,7 +358,7 @@
                       line-height: 24px;
                       text-align: center;
                       padding: 5px 0 9px;
-                      font-weight: 400;
+                      font-weight: 500;
                       font-size: 12px;
                       &:nth-child(1){
                       }
@@ -409,7 +410,7 @@
                       letter-spacing: -.05em;
                       color: #fff;
                       padding: 10px 0 12px;
-                      font-weight: 400;
+                      font-weight: 500;
                       font-size: 12px;
                       &:nth-child(1){
                         width: 15.21%;
@@ -436,7 +437,7 @@
                       line-height: 24px;
                       text-align: right;
                       padding: 5px 0 9px;
-                      font-weight: 400;
+                      font-weight: 500;
                       font-size: 12px;
                       &:nth-child(1){
                         width: 15.21%;
@@ -489,7 +490,7 @@
                       letter-spacing: .05em;
                       color: #fff;
                       padding: 7px 0 6px;
-                      font-weight: 400;
+                      font-weight: 500;
                       font-size: 12px;
                       vertical-align: middle;
                       span{
@@ -535,7 +536,7 @@
                       line-height: 24px;
                       text-align: right;
                       padding: 5px 0 9px;
-                      font-weight: 400;
+                      font-weight: 500;
                       font-size: 12px;
                       vertical-align: middle;
                       text-align: center;
@@ -882,12 +883,14 @@
                     padding: 6px 0 8px;
                     border-radius: 5px;
                     text-align: center;
+                    font-weight: 500;
                   }
                   td{
                     font-size: 12px;
                     letter-spacing: .05em;
                     line-height: 20px;
                     color: #000;
+                    font-weight: 500;
                     background-color: #f6f6f6;
                     width: calc(100% - 95px);
                     vertical-align: middle; 
