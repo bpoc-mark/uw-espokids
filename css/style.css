@@ -3039,6 +3039,7 @@ body {
   border-collapse: collapse;
   border-radius: 5px;
   overflow: hidden;
+  background-color: #fff;
 }
 
 #Rates main .sect_3 .container .content .amount-table .row .col .table-1 thead tr {
@@ -3138,6 +3139,7 @@ body {
   border-collapse: collapse;
   border-radius: 5px;
   overflow: hidden;
+  background-color: #fff;
 }
 
 #Rates main .sect_3 .container .content .amount-table .row .col .table-2 thead tr {
@@ -3227,6 +3229,7 @@ body {
   border-collapse: collapse;
   border-radius: 5px;
   overflow: hidden;
+  background-color: #fff;
 }
 
 #Rates main .sect_3 .container .content .amount-table .row .col .table-3 thead tr {
@@ -3310,6 +3313,7 @@ body {
   border-collapse: collapse;
   border-radius: 5px;
   overflow: hidden;
+  background-color: #fff;
 }
 
 #Rates main .sect_3 .container .content .amount-table .row .col .table-4 thead tr {
@@ -3566,6 +3570,11 @@ body {
   padding: 0 42px 30px;
 }
 
+#Rates main .sect_4 .container .content .package__col:last-child table {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
 #Rates main .sect_4 .container .content .package__col:last-child table tbody tr:not(:first-child) th {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -3641,6 +3650,8 @@ body {
 #Rates main .sect_4 .container .content .package__col table {
   width: 100%;
   margin: 25px 0 0;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
 #Rates main .sect_4 .container .content .package__col table tbody tr {

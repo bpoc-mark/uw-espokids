@@ -237,6 +237,7 @@
                 border-collapse: collapse;
                 border-radius: 5px;
                 overflow: hidden;
+                background-color: #fff;
                 thead{
                   tr{
                     background-color: #f39800;
@@ -319,6 +320,7 @@
                 border-collapse: collapse;
                 border-radius: 5px;
                 overflow: hidden;
+                background-color: #fff;
                 thead{
                   tr{
                     background-color: #ec6138;
@@ -402,6 +404,7 @@
                 border-collapse: collapse;
                 border-radius: 5px;
                 overflow: hidden;
+                background-color: #fff;
                 thead{
                   tr{
                     background-color: #17ae67;
@@ -482,6 +485,7 @@
                 border-collapse: collapse;
                 border-radius: 5px;
                 overflow: hidden;
+                background-color: #fff;
                 thead{
                   tr{
                     background-color: #17ae67;
@@ -697,6 +701,8 @@
             }
             &:last-child{
               table{
+                background-color: #fff;
+                border-radius: 5px;
                 tbody{
                   tr{
                     &:not(:first-child){
@@ -770,6 +776,8 @@
             table{
               width: 100%;
               margin: 16px 0 0;
+              background-color: #fff;
+              border-radius: 5px;
               tbody{
                 tr{
                   display: flex;

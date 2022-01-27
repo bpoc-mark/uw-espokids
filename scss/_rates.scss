@@ -243,6 +243,7 @@ body {
                 border-collapse: collapse;
                 border-radius: 5px;
                 overflow: hidden;
+                background-color: #fff;
                 thead{
                   tr{
                     background-color: #f39800;
@@ -329,6 +330,7 @@ body {
                 border-collapse: collapse;
                 border-radius: 5px;
                 overflow: hidden;
+                background-color: #fff;
                 thead{
                   tr{
                     background-color: #ec6138;
@@ -413,6 +415,7 @@ body {
                 border-collapse: collapse;
                 border-radius: 5px;
                 overflow: hidden;
+                background-color: #fff;
                 thead{
                   tr{
                     background-color: #17ae67;
@@ -490,6 +493,7 @@ body {
                 border-collapse: collapse;
                 border-radius: 5px;
                 overflow: hidden;
+                background-color: #fff;
                 thead{
                   tr{
                     background-color: #17ae67;
@@ -715,6 +719,8 @@ body {
             padding: 0 42px 30px;
             &:last-child{
               table{
+                background-color: #fff;
+                border-radius: 5px;
                 tbody{
                   tr{
                     &:not(:first-child){
@@ -782,6 +788,8 @@ body {
             table{
               width: 100%;
               margin: 25px 0 0;
+              background-color: #fff;
+              border-radius: 5px;
               tbody{
                 tr{
                   display: flex;
